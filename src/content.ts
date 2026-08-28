@@ -31,28 +31,28 @@ export const metrics = [
 export const projects: Project[] = [
   {
     number: "01", icon: "search", kind: "Rechercheprodukt", title: "Stiftungskartei",
-    description: "Eine semantische Stiftungssuche mit drei Einstiegen und nachvollziehbaren Profilen für mehr als 12.000 deutsche Stiftungen.",
+    description: "Drei Suchwege und mehr als 12.000 aufbereitete Stiftungsprofile machten aus verstreuten Informationen eine übersichtliche Recherche.",
     technologies: ["Nuxt", "FastAPI", "Postgres", "Redis"], href: "./stiftungskartei/", linkLabel: "Fallstudie ansehen",
   },
   {
     number: "02", icon: "bot", kind: "KI-Arbeitsplatz", title: "Förderwerk",
-    description: "Eine datenschutzorientierte Chat- und Arbeitsumgebung für NGOs, ergänzt um Recherche, Wissensspeicher und Fördermittel-Workflows.",
+    description: "Ein datenschutzorientierter KI-Arbeitsplatz, der Chat, eigenes Wissen und Werkzeuge für die Fördermittelarbeit an einem Ort zusammenbrachte.",
     technologies: ["LibreChat", "RAG", "MCP", "Docker"],
   },
   {
     number: "03", icon: "database", kind: "Datenpipeline", title: "Stiftungs-Sammler",
-    description: "Die Recherche- und Verarbeitungspipeline hinter der Stiftungskartei: sammeln, extrahieren, strukturieren und für die Suche aufbereiten.",
+    description: "Im Hintergrund sammelte der Stiftungs-Sammler öffentliche Informationen, prüfte Quellen und verwandelte Webseiten und PDFs in nutzbare Profile.",
     technologies: ["Python", "MongoDB", "Web Search", "LLMs"], href: "https://github.com/sichgeis/stiftungs-sammler", external: true, linkLabel: "Quellcode ansehen",
   },
 ];
 
 export const journalEntries: JournalEntry[] = [
-  { title: "Warum Stiftungssuche so aufwändig ist – und wie Stiftungskartei das ändert", author: "Janine", date: "18. Mai 2025", image: "janine.webp", source: "herausforderungen-stiftungsrecherche", excerpt: "Zersplitterte Verzeichnisse und unvollständige Informationen machten Stiftungsrecherche zur Detektivarbeit." },
-  { title: "Förderwerk: Der smarte Weg zu Fördermitteln", author: "Hauke", date: "26. Mai 2025", image: "hauke.webp", source: "foerderwerk-smarter-weg", excerpt: "Die Produktvision hinter einem Werkzeugkasten für Recherche, Antragstellung und Reporting." },
-  { title: "Wir laden ein zum Beta-Testing", author: "Christian", date: "2. Juni 2025", image: "christian.webp", source: "wir-laden-zur-beta-ein", excerpt: "Die Einladung, eine neue Form der Stiftungssuche gemeinsam mit uns zu testen." },
-  { title: "Technik-Insights: Semantische Suche vs. klassische Schlagwortsuche", author: "Hauke", date: "9. Juni 2025", image: "hauke.webp", source: "technik-insights-semantische-suche", excerpt: "Warum Bedeutungsähnlichkeit hilfreicher sein kann als das Abgleichen einzelner Begriffe." },
-  { title: "Alex – Unser KI-Marketeer bringt Stiftungskartei ins Gespräch", author: "Christian", date: "16. Juni 2025", image: "christian.webp", source: "alex", excerpt: "Ein Experiment mit einem digitalen Teammitglied für Recherche und Kontaktentwürfe." },
-  { title: "Technik-Insights: So analysieren wir die deutsche Stiftungslandschaft", author: "Christian", date: "23. Juni 2025", image: "christian.webp", source: "technik-insights-stiftungsdatenbank", excerpt: "Vom öffentlichen Register bis zum strukturierten Steckbrief in der Datenbasis." },
-  { title: "Von der Community lernen: Insights aus dem Beta-Test", author: "Christian", date: "30. Juni 2025", image: "christian.webp", source: "beta-test-insights", excerpt: "Was die Feedback-Runde über Suchgewohnheiten, Vertrauen und Produktführung zeigte." },
-  { title: "Von der Idee zum Social Startup", author: "Christian", date: "8. Juli 2025", image: "christian.webp", source: "social-startup", excerpt: "Wie aus einer digitalen Produktidee ein wirkungsorientiertes Gründungsvorhaben wurde." },
+  { title: "Warum Stiftungssuche so aufwändig ist – und wie Stiftungskartei das ändert", author: "Janine", date: "18. Mai 2025", image: "janine.webp", source: "herausforderungen-stiftungsrecherche", excerpt: "Warum die Suche oft zur Detektivarbeit wird – und wie semantische Suche den Kontext eines Vorhabens einbezieht." },
+  { title: "Förderwerk: Der smarte Weg zu Fördermitteln", author: "Hauke", date: "26. Mai 2025", image: "hauke.webp", source: "foerderwerk-smarter-weg", excerpt: "Die Vision eines Werkzeugkastens, der von der ersten Recherche bis zur Berichterstattung begleitet." },
+  { title: "Wir laden ein zum Beta-Testing", author: "Christian", date: "2. Juni 2025", image: "christian.webp", source: "wir-laden-zur-beta-ein", excerpt: "Warum wir nicht im Elfenbeinturm entwickeln wollten und die Community früh zum Testen eingeladen haben." },
+  { title: "Technik-Insights: Semantische Suche vs. klassische Schlagwortsuche", author: "Hauke", date: "9. Juni 2025", image: "hauke.webp", source: "technik-insights-semantische-suche", excerpt: "Wie eine Suche Bedeutungen, Zusammenhänge und ähnliche Begriffe erkennt – statt nur Wörter abzugleichen." },
+  { title: "Alex – Unser KI-Marketeer bringt Stiftungskartei ins Gespräch", author: "Christian", date: "16. Juni 2025", image: "christian.webp", source: "alex", excerpt: "Was wir aus einem digitalen Teammitglied für Recherche und persönliche Ansprache gelernt haben." },
+  { title: "Technik-Insights: So analysieren wir die deutsche Stiftungslandschaft", author: "Christian", date: "23. Juni 2025", image: "christian.webp", source: "technik-insights-stiftungsdatenbank", excerpt: "Wie aus verstreuten Webseiten, PDFs und Registern eine strukturierte Stiftungsdatenbank entstand." },
+  { title: "Von der Community lernen: Insights aus dem Beta-Test", author: "Christian", date: "30. Juni 2025", image: "christian.webp", source: "beta-test-insights", excerpt: "Was uns die erste Feedback-Runde über gute Suchergebnisse, klare Bedienung und fehlende Funktionen gezeigt hat." },
+  { title: "Von der Idee zum Social Startup", author: "Christian", date: "8. Juli 2025", image: "christian.webp", source: "social-startup", excerpt: "Warum Technologie für uns kein Selbstzweck war, sondern ein Werkzeug für mehr Teilhabe und Wirkung." },
 ];

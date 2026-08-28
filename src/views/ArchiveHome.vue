@@ -10,9 +10,9 @@ const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
 
 <template>
   <section class="home-hero page-width">
-    <p class="eyebrow">Digitale Werkzeuge für gemeinnützige Organisationen</p>
+    <p class="eyebrow">Digitale Werkzeuge für mehr Wirkung</p>
     <h1>Was wir gebaut haben.<br /><span>Und was davon bleibt.</span></h1>
-    <p class="hero-copy">Förderwerk und Stiftungskartei waren ein unabhängiges Produktvorhaben für bessere Fördermittelrecherche und Wissensarbeit. Heute bewahrt dieses Archiv die Produkte, den offenen Quellcode und die Erkenntnisse dahinter.</p>
+    <p class="hero-copy">Förderwerk entstand aus einer einfachen Frage: Wie können digitale Werkzeuge gemeinnützigen Organisationen mehr Zeit für ihre eigentliche Arbeit geben? Gemeinsam mit unserer Community haben wir daraus Stiftungskartei, einen KI-Arbeitsplatz und eine eigene Datenpipeline entwickelt. Dieses Archiv erzählt, was daraus geworden ist – und was bleibt.</p>
     <div class="hero-actions">
       <a class="button primary" href="./stiftungskartei/">Stiftungskartei ansehen <ArrowUpRight :size="18" /></a>
       <a class="button secondary" href="https://github.com/sichgeis/stiftungskartei" target="_blank" rel="noreferrer"><CodeXml :size="18" /> Open-Source-Projekt</a>
@@ -32,8 +32,8 @@ const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
   <section id="projekte" class="content-section page-width">
     <div class="section-intro">
       <p class="section-label">Das Projekt</p>
-      <h2>Drei Bausteine für eine zugänglichere Fördermittelarbeit.</h2>
-      <p>Produktdesign, Datenarbeit und KI-gestützte Recherche wurden zu einem zusammenhängenden Werkzeugkasten.</p>
+      <h2>Drei Bausteine, die Fördermittelarbeit einfacher machen sollten.</h2>
+      <p>Wir wollten nicht nur einzelne Schritte digitalisieren, sondern den gesamten Weg zusammendenken: von der Recherche über die Arbeit mit Wissen bis zur passenden Förderung.</p>
     </div>
     <div class="project-list">
       <article v-for="project in projects" :key="project.number" class="project-row">
@@ -53,7 +53,7 @@ const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
     <div class="featured-inner page-width">
       <div class="featured-copy">
         <p class="section-label">Fallstudie 01</p><h2>Stiftungskartei</h2><p class="case-tagline">Smart suchen, mehr wirken.</p>
-        <p>Eine KI-gestützte Suchmaschine, die den Kontext einer Organisation mit einer strukturierten Datenbasis von mehr als 12.000 deutschen Stiftungen verband.</p>
+        <p>Mit Stiftungskartei fing alles an. Statt sich durch Listen, Webseiten und PDF-Berichte zu arbeiten, konnten Organisationen auf drei Wegen nach passenden Stiftungen suchen – und die wichtigsten Informationen direkt vergleichen.</p>
         <a class="button primary" href="./stiftungskartei/">Produktfallstudie öffnen <ArrowUpRight :size="18" /></a>
       </div>
       <a class="screenshot-frame" :href="archivePath('screenshots/stiftungskartei-home.png')"><img :src="archivePath('screenshots/stiftungskartei-home.png')" alt="Die ehemalige Startseite der Stiftungskartei" /></a>
@@ -62,9 +62,9 @@ const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
 
   <section id="open-source" class="content-section page-width open-source-section">
     <div class="open-source-mark"><CodeXml :size="32" /></div>
-    <div><p class="section-label">Jetzt Open Source</p><h2>Der Betrieb endet. Der Code bleibt zugänglich.</h2></div>
+    <div><p class="section-label">Jetzt Open Source</p><h2>Der Betrieb ist beendet. Der Code bleibt offen.</h2></div>
     <div class="open-source-copy">
-      <p>Stiftungskartei und die Datenpipeline Stiftungs-Sammler sind als bereinigte Archivfassungen unter Apache-2.0 veröffentlicht. Die Originaldaten können auf Anfrage beim Projektinhaber bezogen werden.</p>
+      <p>Wir haben Stiftungskartei und den Stiftungs-Sammler bereinigt, dokumentiert und unter Apache-2.0 veröffentlicht. So lassen sich unsere Entscheidungen nachvollziehen und die Projekte lokal weiterentwickeln. Wer mit den ursprünglichen Daten arbeiten möchte, kann sie bei mir anfragen.</p>
       <div class="source-links">
         <a href="https://github.com/sichgeis/stiftungskartei" target="_blank" rel="noreferrer">Stiftungskartei <ArrowUpRight :size="17" /></a>
         <a href="https://github.com/sichgeis/stiftungs-sammler" target="_blank" rel="noreferrer">Stiftungs-Sammler <ArrowUpRight :size="17" /></a>
@@ -73,7 +73,7 @@ const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
   </section>
 
   <section id="journal" class="content-section page-width journal-section">
-    <div class="section-intro compact"><p class="section-label">Produktjournal · 2025</p><h2>Acht Notizen aus Entwicklung und Beta-Test.</h2><p>Originaltexte über Problemverständnis, Technologie und Erkenntnisse aus der Community.</p></div>
+    <div class="section-intro compact"><p class="section-label">Produktjournal · 2025</p><h2>Acht Einblicke in Entwicklung und Beta-Test.</h2><p>Wie wir das Problem verstanden, technische Entscheidungen getroffen und gemeinsam mit der Community dazugelernt haben.</p></div>
     <div class="journal-list">
       <article v-for="(post, index) in journalEntries" :key="post.title">
         <span class="journal-number">{{ String(index + 1).padStart(2, "0") }}</span>
@@ -85,8 +85,8 @@ const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
 
   <section class="retirement-note">
     <div class="page-width">
-      <p class="section-label">Status</p><h2>Das Angebot ist eingestellt.<br />Die Arbeit bleibt sichtbar.</h2>
-      <div><p>Förderwerk, Stiftungskartei und die zugehörigen Online-Dienste werden nicht mehr aktiv betrieben.</p><p>Dieses statische Archiv dokumentiert die frühere Produkt- und Entwicklungsarbeit – ohne Accounts, Tracking oder laufende Server.</p></div>
+      <p class="section-label">Status</p><h2>Das Angebot ist beendet.<br />Die Arbeit bleibt sichtbar.</h2>
+      <div><p>Wir betreiben Förderwerk, Stiftungskartei und die dazugehörigen Online-Dienste nicht mehr weiter.</p><p>Was bleibt, ist dieses statische Archiv: ein Rückblick auf unsere Produktarbeit, die Technik dahinter und das, was wir gemeinsam mit der Community gelernt haben – ohne Accounts, Tracking oder laufende Anwendungsserver.</p></div>
     </div>
   </section>
 </template>

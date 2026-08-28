@@ -6,7 +6,7 @@ defineProps<{ homeHref: string }>();
   <footer>
     <a class="footer-brand" :href="homeHref">
       <img :src="`${homeHref}foerderwerk-mono-transparent-logo.svg`" alt="" />
-      <span><strong>Förderwerk Projektarchiv</strong><small>Das operative Angebot ist eingestellt.</small></span>
+      <span><strong>Förderwerk Projektarchiv</strong><small>Förderwerk wird nicht mehr betrieben.</small></span>
     </a>
     <div class="footer-links">
       <a href="https://github.com/sichgeis" target="_blank" rel="noreferrer">GitHub</a>
