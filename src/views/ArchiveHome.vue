@@ -1,10 +1,34 @@
 <script setup lang="ts">
-import { ArrowDown, ArrowUpRight, Bot, CodeXml, Database, Search } from "@lucide/vue";
+import {
+  ArrowDown,
+  ArrowRight,
+  ArrowUpRight,
+  Bot,
+  CodeXml,
+  Compass,
+  Database,
+  Rocket,
+  Search,
+  Sparkles,
+  Users,
+} from "@lucide/vue";
 import type { Component } from "vue";
-import { journalEntries, metrics, projects, type ProjectIcon } from "../content";
+import { journalEntries, metrics, projects, type JournalEntry, type ProjectIcon } from "../content";
 
-defineProps<{ archivePath: (path: string) => string }>();
+const props = defineProps<{ archivePath: (path: string) => string; homeHref: string }>();
 const projectIcons: Record<ProjectIcon, Component> = { search: Search, bot: Bot, database: Database };
+const topicIcons: Record<JournalEntry["icon"], Component> = {
+  search: Search,
+  compass: Compass,
+  users: Users,
+  sparkles: Sparkles,
+  bot: Bot,
+  database: Database,
+  rocket: Rocket,
+};
+const leadArticle = journalEntries[0];
+const moreArticles = journalEntries.slice(1);
+const articleHref = (entry: JournalEntry) => `${props.homeHref}blog/${entry.slug}/`;
 const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
 </script>
 
@@ -60,6 +84,44 @@ const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
     </div>
   </section>
 
+  <section id="journal" class="journal-section">
+    <div class="page-width">
+      <div class="journal-heading">
+        <div><p class="section-label">Produktjournal · 2025</p><h2>Acht Geschichten aus Entwicklung und Beta-Test.</h2></div>
+        <p>Was uns angetrieben hat, wie Stiftungskartei technisch funktionierte und was wir gemeinsam mit der Community gelernt haben. Die vollständigen Originalbeiträge aus dem Sommer 2025.</p>
+      </div>
+
+      <a class="journal-lead" :href="articleHref(leadArticle)">
+        <div class="journal-lead-copy">
+          <div class="journal-topic"><component :is="topicIcons[leadArticle.icon]" :size="20" /><span>{{ leadArticle.topic }}</span></div>
+          <p class="journal-kicker">Leitartikel · {{ leadArticle.readingTime }}</p>
+          <h3>{{ leadArticle.title }}</h3>
+          <p>{{ leadArticle.excerpt }}</p>
+          <span class="journal-read-link">Artikel lesen <ArrowRight :size="18" /></span>
+        </div>
+        <div class="journal-lead-author">
+          <img :src="archivePath(`authors/${leadArticle.image}`)" :alt="leadArticle.author" />
+          <div><span>Geschrieben von</span><strong>{{ leadArticle.author }}</strong><small>{{ leadArticle.date }}</small></div>
+        </div>
+      </a>
+
+      <div class="journal-grid">
+        <a v-for="post in moreArticles" :key="post.title" class="journal-card" :href="articleHref(post)">
+          <div class="journal-card-top">
+            <div class="journal-topic"><component :is="topicIcons[post.icon]" :size="18" /><span>{{ post.topic }}</span></div>
+            <ArrowUpRight :size="19" aria-hidden="true" />
+          </div>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt }}</p>
+          <div class="journal-author">
+            <img :src="archivePath(`authors/${post.image}`)" :alt="post.author" />
+            <div><strong>{{ post.author }}</strong><span>{{ post.date }} · {{ post.readingTime }}</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section id="open-source" class="content-section page-width open-source-section">
     <div class="open-source-mark"><CodeXml :size="32" /></div>
     <div><p class="section-label">Jetzt Open Source</p><h2>Der Betrieb ist beendet. Der Code bleibt offen.</h2></div>
@@ -69,17 +131,6 @@ const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
         <a href="https://github.com/sichgeis/stiftungskartei" target="_blank" rel="noreferrer">Stiftungskartei <ArrowUpRight :size="17" /></a>
         <a href="https://github.com/sichgeis/stiftungs-sammler" target="_blank" rel="noreferrer">Stiftungs-Sammler <ArrowUpRight :size="17" /></a>
       </div>
-    </div>
-  </section>
-
-  <section id="journal" class="content-section page-width journal-section">
-    <div class="section-intro compact"><p class="section-label">Produktjournal · 2025</p><h2>Acht Einblicke in Entwicklung und Beta-Test.</h2><p>Wie wir das Problem verstanden, technische Entscheidungen getroffen und gemeinsam mit der Community dazugelernt haben.</p></div>
-    <div class="journal-list">
-      <article v-for="(post, index) in journalEntries" :key="post.title">
-        <span class="journal-number">{{ String(index + 1).padStart(2, "0") }}</span>
-        <div><p class="journal-meta">{{ post.author }} · {{ post.date }}</p><h3>{{ post.title }}</h3><p>{{ post.excerpt }}</p></div>
-        <a :href="archivePath(`journal-source/${post.source}.vue.txt`)" :aria-label="`${post.title}: Originaltext öffnen`"><ArrowUpRight :size="18" /></a>
-      </article>
     </div>
   </section>
 

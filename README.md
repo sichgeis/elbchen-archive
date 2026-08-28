@@ -19,8 +19,8 @@ for information about requesting access from Christian.
 - A portfolio overview of the product family
 - A dedicated Stiftungskartei case study at `/stiftungskartei/`
 - Product screenshots captured from the final public deployment
-- The Stiftungskartei editorial journal
-- Complete original sources for all eight Stiftungskartei journal articles
+- The Stiftungskartei editorial journal with eight fully rendered article pages
+- Complete original Vue sources for all eight articles alongside the readable archive
 - The complete legacy Hugo post collection under `public/archive/legacy-blog`
 - A simplified system architecture and project timeline
 - A clear notice that the operational services have ended
