@@ -134,6 +134,13 @@ h1 span { color: var(--blue); }
 .case-meta span { color: var(--blue); font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
 .case-cover { padding: 1rem max(1rem, calc((100vw - 1450px) / 2)); background: var(--ink); }
 .case-cover img { width: 100%; }
+.screencast-section { padding-block: 6rem; }
+.screencast-copy { max-width: 880px; }
+.screencast-copy .section-label { margin-top: 0; }
+.screencast-copy h2 { margin-bottom: 1.25rem; font-size: clamp(2.5rem, 4.5vw, 4.5rem); line-height: 1.05; }
+.screencast-copy > p:last-child { max-width: 760px; font-size: 1.08rem; line-height: 1.65; }
+.screencast-frame { margin-top: 3rem; padding: .75rem; border: 1px solid var(--line); background: var(--ink); }
+.screencast-frame video { display: block; width: 100%; aspect-ratio: 8 / 5; background: #000; }
 .narrative-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; }
 .narrative-grid .section-label { margin-top: 0; }
 .narrative-copy { font-size: 1.2rem; line-height: 1.7; }

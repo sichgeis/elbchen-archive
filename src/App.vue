@@ -381,6 +381,27 @@ const screenshots = [
         <img :src="archivePath('screenshots/stiftungskartei-home.png')" alt="Startseite der Stiftungskartei" />
       </section>
 
+      <section class="section screencast-section">
+        <div class="screencast-copy">
+          <p class="section-label">Produkt in Bewegung</p>
+          <h2>Ein letzter Rundgang durch die Stiftungskartei.</h2>
+          <p>
+            Die Aufnahme zeigt die direkte Suche, öffentliche Ergebnisprofile und den
+            Übergang in dieses Projektarchiv. Verwendet wurden ausschließlich neutrale,
+            öffentlich sichtbare Stiftungsdaten – keine Accounts oder Nutzerdaten.
+          </p>
+        </div>
+        <div class="screencast-frame">
+          <video
+            controls
+            preload="metadata"
+            :poster="archivePath('screenshots/stiftungskartei-home.png')"
+            :src="archivePath('video/stiftungskartei-screencast.webm')"
+            aria-label="Stiller Rundgang durch die archivierte Stiftungskartei"
+          ></video>
+        </div>
+      </section>
+
       <section class="section narrative-grid">
         <div>
           <p class="section-label">Ausgangslage</p>
