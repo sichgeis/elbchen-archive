@@ -7,6 +7,8 @@
 | `https://foerderwerk.org/` | GitHub Pages archive |
 | `https://www.foerderwerk.org/` | `https://foerderwerk.org/` |
 | `https://kartei.foerderwerk.org/` | `https://foerderwerk.org/stiftungskartei/` |
+| `https://stiftungskartei.de/` | `https://foerderwerk.org/stiftungskartei/` |
+| `https://www.stiftungskartei.de/` | `https://foerderwerk.org/stiftungskartei/` |
 | `https://elbchen.com/` (if retained) | `https://foerderwerk.org/#projekte` |
 
 The apex domain is the only canonical site. Redirects should use HTTP 301 or
@@ -15,22 +17,29 @@ for hosts that cannot create an HTTP redirect rule.
 
 ## Before DNS changes
 
-- [ ] Create or select the GitHub repository.
-- [ ] Push the archive branch and run the Pages workflow.
-- [ ] In **Settings → Pages**, select GitHub Actions and add
+- [x] Create or select the GitHub repository.
+- [x] Push the archive branch and run the Pages workflow.
+- [x] In **Settings → Pages**, select GitHub Actions and add
       `foerderwerk.org` as the custom domain.
-- [ ] Verify `/`, `/stiftungskartei/`, `/og.png`, and an unknown URL.
-- [ ] Confirm the site contains no API, subscription, form or analytics calls.
-- [ ] Lower DNS TTLs.
+- [x] Verify `/`, `/stiftungskartei/`, `/og.png`, and an unknown URL.
+- [x] Confirm the site contains no API, subscription, form or analytics calls.
+- [x] Lower DNS TTLs (600 seconds at cutover).
 
 ## DNS cutover
 
-- [ ] Point the apex records for `foerderwerk.org` to GitHub Pages as shown in
+- [x] Point the apex records for `foerderwerk.org` to GitHub Pages as shown in
       the repository's Pages settings.
-- [ ] Configure `www.foerderwerk.org` as a redirect to the apex domain.
-- [ ] Configure `kartei.foerderwerk.org` as a redirect to the case study.
+- [x] Configure `www.foerderwerk.org` as a redirect to the apex domain.
+- [x] Configure `kartei.foerderwerk.org` as a redirect to the case study.
+- [x] Configure `stiftungskartei.de` and `www.stiftungskartei.de` as redirects
+      to the case study.
 - [ ] Enable HTTPS for the custom domain.
 - [ ] Verify the canonical URL and social preview.
+
+DNS was cut over through Porkbun on 2026-08-28. GitHub Pages certificate
+provisioning can only complete after the new records have propagated. Do not
+shut down the old servers until HTTPS and all redirects have been verified
+from an independent network.
 
 ## Application shutdown order
 
