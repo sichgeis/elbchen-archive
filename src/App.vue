@@ -14,7 +14,9 @@ import {
   Sparkles,
 } from "@lucide/vue";
 
-const isCaseStudy = window.location.pathname.startsWith("/stiftungskartei");
+const isCaseStudy = /\/stiftungskartei(?:\/|$)/.test(window.location.pathname);
+const localBase = isCaseStudy ? "../" : "./";
+const archivePath = (path: string) => `${localBase}archive/${path}`;
 
 const blogPosts = [
   {
@@ -85,22 +87,22 @@ const blogPosts = [
 
 const screenshots = [
   {
-    src: "/archive/screenshots/foerderwerk-home.png",
+    src: archivePath("screenshots/foerderwerk-home.png"),
     title: "Förderwerk",
     caption: "Landing Page, Produktangebot und KI-Arbeitsplatz",
   },
   {
-    src: "/archive/screenshots/stiftungskartei-home.png",
+    src: archivePath("screenshots/stiftungskartei-home.png"),
     title: "Stiftungskartei",
     caption: "KI-Suche, Direkt-Suche und Profi-Suche",
   },
   {
-    src: "/archive/screenshots/stiftungskartei-search.png",
+    src: archivePath("screenshots/stiftungskartei-search.png"),
     title: "Suchergebnisse",
     caption: "Priorisierte Treffer mit Themen, Zielgruppen und Projekten",
   },
   {
-    src: "/archive/screenshots/stiftungskartei-foundation-detail.png",
+    src: archivePath("screenshots/stiftungskartei-foundation-detail.png"),
     title: "Stiftungsprofil",
     caption: "Strukturierter Steckbrief mit Quellen und Antragsinformationen",
   },
@@ -111,7 +113,7 @@ const screenshots = [
   <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
 
   <header class="site-header">
-    <a class="wordmark" href="/" aria-label="Förderwerk Projektarchiv">
+    <a class="wordmark" :href="localBase" aria-label="Förderwerk Projektarchiv">
       <span class="wordmark-mark" aria-hidden="true">F</span>
       <span>Förderwerk Archiv</span>
     </a>
@@ -121,7 +123,7 @@ const screenshots = [
       <a href="#journal">Journal</a>
       <a href="#archiv">Archiv</a>
     </nav>
-    <a v-else class="back-link" href="/"><ArrowLeft :size="17" /> Zur Übersicht</a>
+    <a v-else class="back-link" :href="localBase"><ArrowLeft :size="17" /> Zur Übersicht</a>
   </header>
 
   <main id="main-content">
@@ -196,7 +198,7 @@ const screenshots = [
             <ul class="tag-list">
               <li>Nuxt</li><li>FastAPI</li><li>Postgres</li><li>Redis</li>
             </ul>
-            <a class="text-link" href="/stiftungskartei/">
+            <a class="text-link" href="./stiftungskartei/">
               Fallstudie öffnen <ArrowUpRight :size="18" />
             </a>
           </article>
@@ -244,13 +246,13 @@ const screenshots = [
             in eine semantische Suche. Ergebnisse wurden nicht nur gelistet, sondern
             als strukturierte, nachvollziehbare Stiftungsprofile aufbereitet.
           </p>
-          <a class="text-link" href="/stiftungskartei/">
+          <a class="text-link" href="./stiftungskartei/">
             Produkt, Prozess und Architektur <ArrowUpRight :size="18" />
           </a>
         </div>
-        <a class="product-frame" href="/archive/screenshots/stiftungskartei-home.png">
+        <a class="product-frame" :href="archivePath('screenshots/stiftungskartei-home.png')">
           <img
-            src="/archive/screenshots/stiftungskartei-home.png"
+            :src="archivePath('screenshots/stiftungskartei-home.png')"
             alt="Die ehemalige Startseite der Stiftungskartei"
           />
         </a>
@@ -303,14 +305,14 @@ const screenshots = [
         <div class="journal-grid">
           <article v-for="post in blogPosts" :key="post.title" class="journal-card">
             <div class="author-line">
-              <img :src="`/archive/authors/${post.image}`" :alt="`Portrait von ${post.author}`" />
+              <img :src="archivePath(`authors/${post.image}`)" :alt="`Portrait von ${post.author}`" />
               <span>{{ post.author }} · {{ post.date }}</span>
             </div>
             <h3>{{ post.title }}</h3>
             <p>{{ post.excerpt }}</p>
             <a
               class="archived-label"
-              :href="`/archive/journal-source/${post.source}.vue.txt`"
+              :href="archivePath(`journal-source/${post.source}.vue.txt`)"
             >
               <Archive :size="14" /> Originaltext im Quellarchiv
             </a>
@@ -376,7 +378,7 @@ const screenshots = [
       </section>
 
       <section class="case-cover">
-        <img src="/archive/screenshots/stiftungskartei-home.png" alt="Startseite der Stiftungskartei" />
+        <img :src="archivePath('screenshots/stiftungskartei-home.png')" alt="Startseite der Stiftungskartei" />
       </section>
 
       <section class="section narrative-grid">
@@ -413,8 +415,8 @@ const screenshots = [
             einzeln öffnen zu müssen.
           </p>
         </div>
-        <a class="walkthrough-image" href="/archive/screenshots/stiftungskartei-search.png">
-          <img src="/archive/screenshots/stiftungskartei-search.png" alt="Suchergebnisliste der Stiftungskartei" loading="lazy" />
+        <a class="walkthrough-image" :href="archivePath('screenshots/stiftungskartei-search.png')">
+          <img :src="archivePath('screenshots/stiftungskartei-search.png')" alt="Suchergebnisliste der Stiftungskartei" loading="lazy" />
         </a>
       </section>
 
@@ -428,8 +430,8 @@ const screenshots = [
             Quellen in einem einheitlichen Format.
           </p>
         </div>
-        <a class="walkthrough-image detail" href="/archive/screenshots/stiftungskartei-foundation-detail.png">
-          <img src="/archive/screenshots/stiftungskartei-foundation-detail.png" alt="Detailprofil einer Stiftung" loading="lazy" />
+        <a class="walkthrough-image detail" :href="archivePath('screenshots/stiftungskartei-foundation-detail.png')">
+          <img :src="archivePath('screenshots/stiftungskartei-foundation-detail.png')" alt="Detailprofil einer Stiftung" loading="lazy" />
         </a>
       </section>
 
@@ -475,7 +477,7 @@ const screenshots = [
             fiktive Beispieldaten bleiben als Open-Source-Projekt verfügbar.
           </p>
           <a class="button primary" href="https://github.com/sichgeis/stiftungskartei" target="_blank" rel="noreferrer"><CodeXml :size="17" /> Quellcode auf GitHub</a>
-          <a class="button primary" href="/">Zurück zum Projektarchiv <ArrowUpRight :size="17" /></a>
+          <a class="button primary" :href="localBase">Zurück zum Projektarchiv <ArrowUpRight :size="17" /></a>
         </div>
       </section>
     </template>
