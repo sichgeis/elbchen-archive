@@ -1,0 +1,208 @@
+<template>
+  <article>
+    <StyledH1>Warum Stiftungssuche so aufwändig ist – und wie Stiftungskartei das ändert</StyledH1>
+    <div class="mb-6 mt-2 flex items-center gap-4">
+      <img src="/janine.webp" alt="Janine" class="size-14 rounded-full object-cover" />
+      <div>
+        <div class="font-semibold">Janine</div>
+        <div class="text-sm text-gray-500">18. Mai 2025</div>
+      </div>
+    </div>
+    <StyledParagraph>
+      Stell dir vor: Du hast eine tolle Projektidee, suchst dringend Förderung – und stehst vor einer unüberwindbaren
+      Mauer aus Verzeichnissen, Excel-Listen und alten PDF-Berichten. Du klickst dich von Datenbank zu Datenbank. Die
+      Informationen sind verstreut, veraltet oder unvollständig, und nach Stunden der Suche bleibt vor allem eines:
+      Frust.
+    </StyledParagraph>
+    <StyledParagraph>
+      In Deutschland gibt es mehr als 30.000 Stiftungen<sup>[1]</sup>, aber eine zentrale, verlässliche Datenbank fehlt.
+      Genau das macht die Stiftungs-Recherche so kompliziert. Kein Wunder also, dass rund 90 % aller Anträge
+      scheitern<sup>[3]</sup>. Doch KI kann dir helfen, indem sie Kontext versteht statt nur Schlüsselwörter.
+    </StyledParagraph>
+    <StyledParagraph>
+      In diesem Beitrag zeige ich dir, woran es hakt – und wie du mit unserer Stiftungskartei durch semantische Suche,
+      intelligente Automatisierung und moderne Textverarbeitung die Stiftungsrecherche komplett neu angehen kannst.
+    </StyledParagraph>
+    <StyledH2>Zeit- und Ressourcenfresser Manuelle Recherche</StyledH2>
+    <StyledParagraph>
+      Stiftungen in Deutschland sind auf zahlreiche Bundes-, Landes- und Kommunalverzeichnisse
+      verteilt<sup>[4,5,6]</sup>. Unterschiedliche Datenqualität und Nutzeroberflächen zwingen dich zu aufwendiger
+      Mehrfachrecherche<sup>[2]</sup>. Die föderale Struktur verschärft das Problem: Details sind oft unvollständig,
+      veraltet oder nur gegen Gebühr verfügbar<sup>[6]</sup>.
+    </StyledParagraph>
+    <StyledParagraph>
+      Wenn du Fördermöglichkeiten aufspüren willst, verbringst du oft Stunden mit dem Durchforsten von Datenbanken,
+      PDF-Jahresberichten und Lokalnachrichten. Hinzu kommt das Telefonieren mit Verwaltungen oder
+      Stiftungssekretariaten<sup>[7]</sup>. Dieser Dreischritt aus Identifikation, Recherche und Qualifizierung kostet
+      vor allem kleinen NGOs und Vereinen wertvolle Kapazitäten – Zeit, die du besser in deine Projektarbeit investieren
+      könntest. Und selbst nach aufwendiger und intensiver Vorarbeit gibt es keine Erfolgsgarantie<sup>[3]</sup>.
+    </StyledParagraph>
+    <StyledParagraph>
+      Oft entscheidet ein kleiner inhaltlicher Feinschliff, ob dein Antrag Interesse weckt und eine Zusammenarbeit mit
+      der Förderstiftung zustande kommt. Darum ist es wichtig zu verstehen, ob dein Vorhaben zum Stiftungszweck passt.
+      Die klassische Stiftungssuche mit einer simplen Stichwortsuche erfasst jedoch nur allgemeine Themen der Stiftungen
+      und berücksichtigt nicht explizit die tatsächlichen Förderschwerpunkte, Zielgruppen und Projekte<sup>[8]</sup>.
+      Laut Branchenstatistiken scheitern 9 von 10 Anträgen am fehlenden inhaltlichen Fit<sup>[3]</sup>. Serien-E-Mails
+      mit Textbausteinen landen schnell unbeantwortet im Papierkorb. Im Gegensatz dazu erlaubt dir ein tiefes
+      Verständnis der Ziele, Geschichte und Fördermöglichkeiten der adressierten Stiftung eine zielgerichtete und
+      persönliche Ansprache – und steigert damit deine Erfolgsaussichten drastisch<sup>[6]</sup>.
+    </StyledParagraph>
+    <StyledH2>Unser Lösungsansatz: Automatisierte, semantische Suche</StyledH2>
+
+    <StyledParagraph>
+      Die Stiftungskartei löst sich von der traditionellen Schlagwortsuche und hebt die Stiftungsrecherche auf ein neues
+      Level – dank moderner KI und semantischer Analyse. Statt mühsam per Hand in unzähligen Verzeichnissen zu stöbern,
+      übernimmt unsere Kartei den kompletten Rechercheprozess für dich:
+    </StyledParagraph>
+    <StyledUl>
+      <li>
+        <b>Automatisierte Datenerfassung</b><br />
+        Du gibst nur den Namen deiner Organisation (und optional eine Kurzbeschreibung deines Vorhabens) ein. Im
+        Hintergrund werden alle öffentlich verfügbaren Informationen und Webseiten systematisch erfasst und in lesbare
+        Textbausteine überführt. Daher musst du kein ellenlanges Formular ausfüllen, um deine Organisation umfassend zu
+        beschreiben. Das haben wir für dich automatisiert.
+      </li>
+      <li>
+        <b>Intelligente Textanalyse</b><br />
+        Ein leistungsstarkes Sprachmodell wertet die gesammelten Texte aus und extrahiert nicht nur Stichwörter, sondern
+        erfasst Ziele, Zielgruppen, geografische Schwerpunkte und vergangene Projekte deiner Organisation. So verstehen
+        wir deine Mission, damit wir die zu dir passenden Förderstiftungen finden können.
+      </li>
+      <li>
+        <b>Dynamische semantische Suchanfrage</b><br />
+        Auf Basis deines Organisationsprofils generiert Stiftungskartei eine komplexe Suchanfrage, die weit über
+        einfache Filter hinausgeht. Wir suchen damit in unserer umfangreichen Datenbank mit über 10.000 Stiftungen in
+        Deutschland. Anstatt nur exakte Keywords abzugleichen, versteht unsere Suche den inhaltlichen Zusammenhang und
+        priorisiert Stiftungen, die wirklich zu deiner Mission, deinen Zielen und deinem regionalen Fokus passen.
+      </li>
+      <li>
+        <b>Übersichtliche Ergebnisdarstellung</b><br />
+        Innerhalb weniger Sekunden erhältst du so eine sortierte Trefferliste mit den wichtigsten Informationen zu jeder
+        vorgeschlagenen Stiftung. Auf Wunsch zeigen wir dir zudem zu jedem Treffer einen übersichtlichen Steckbrief, in
+        dem du ausführliche Details zu Förderkriterien, bisherigen Projekten und Ansprechpartnern findest.
+      </li>
+    </StyledUl>
+    <StyledParagraph>
+      Durch diesen vollautomatisierten, semantischen Workflow sparst du nicht nur Stunden an Recherchezeit, sondern
+      erhöhst auch die Trefferqualität dramatisch. Denk nicht mehr in Schlagwörtern, sondern finde genau die
+      Förderstiftungen, deren Ziele und Förderkriterien perfekt zu deinem Vorhaben passen. So steigt die Chance, dass
+      dein Antrag Gehör findet – und dein Projekt Wirklichkeit wird.
+    </StyledParagraph>
+
+    <StyledH2>Ausblick</StyledH2>
+    <StyledParagraph>
+      Die traditionelle Stiftungsrecherche ist zeitaufwendig, fragmentiert und ineffizient – und führt zu zahllosen
+      verpassten Förderchancen<sup>[6,3]</sup>. Unsere semantische Suche verspricht einen Paradigmenwechsel, indem sie
+      Kontext, Ziele und Zielgruppen automatisiert verknüpft<sup>[8]</sup>. In den kommenden Blogposts stellen wir dir
+      Anwendungsfälle vor, vertiefen den Einblick in die zugrundeliegende Technik und geben dir praktische
+      Bewerbungstipps für deinen perfekten Förderantrag.
+    </StyledParagraph>
+    <StyledH2>Quellen</StyledH2>
+    <StyledUl>
+      <li>
+        [1]
+        <NuxtLink
+          :to="'https://cms-cdn.lmu.de/media/lmu/downloads/stiftungen/zahlen-daten-fakten-zum-deutschen-stiftungswesen.pdf'"
+          :aria-label="'Besuche Website https://cms-cdn.lmu.de/media/lmu/downloads/stiftungen/zahlen-daten-fakten-zum-deutschen-stiftungswesen.pdf'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >LMU München: Zahlen, Daten, Fakten zum deutschen Stiftungswesen<LucideExternalLink class="ml-1 h-4 w-4"
+        /></NuxtLink>
+      </li>
+      <li>
+        [2]
+        <NuxtLink
+          :to="'https://www.rwi.uzh.ch/dam/jcr:ffffffff-f574-7f31-ffff-ffff84754f4c/MedienechozumStiftungsreport.pdf'"
+          :aria-label="'Besuche Website https://www.rwi.uzh.ch/dam/jcr:ffffffff-f574-7f31-ffff-ffff84754f4c/MedienechozumStiftungsreport.pdf'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >RWI – Medienecho zum Stiftungsreport<LucideExternalLink class="ml-1 h-4 w-4"
+        /></NuxtLink>
+      </li>
+      <li>
+        [3]
+        <NuxtLink
+          :to="'https://stiftungssuche.de/tipps-zur-antragstellung/'"
+          :aria-label="'Besuche Website https://stiftungssuche.de/tipps-zur-antragstellung/'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Stiftungssuche.de: Tipps zur Antragstellung<LucideExternalLink class="ml-1 h-4 w-4"
+        /></NuxtLink>
+      </li>
+      <li>
+        [4]
+        <NuxtLink
+          :to="'https://stiftungssuche.de/'"
+          :aria-label="'Besuche Website https://stiftungssuche.de/'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Bundesverband Deutscher Stiftungen: „Stiftungssuche“<LucideExternalLink class="ml-1 h-4 w-4"
+        /></NuxtLink>
+      </li>
+      <li>
+        [5]
+        <NuxtLink
+          :to="'https://www.stiftungen.bayern.de/'"
+          :aria-label="'Besuche Website https://www.stiftungen.bayern.de/'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Bayerisches Staatsministerium: Landesspezifisches Stiftungsverzeichnis<LucideExternalLink
+            class="ml-1 h-4 w-4"
+        /></NuxtLink>
+      </li>
+      <li>
+        [6]
+        <NuxtLink
+          :to="'https://www.stiftungen.org/leitfaden-stiftungsfundraising'"
+          :aria-label="'Besuche Website https://www.stiftungen.org/leitfaden-stiftungsfundraising'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Deutscher Bundesverband: Leitfaden Stiftungsfundraising<LucideExternalLink class="ml-1 h-4 w-4"
+        /></NuxtLink>
+      </li>
+      <li>
+        [7]
+        <NuxtLink
+          :to="'https://stiftungschweiz.ch/blog/ohne-recherche-geht-gar-nichts/'"
+          :aria-label="'Besuche Website https://stiftungschweiz.ch/blog/ohne-recherche-geht-gar-nichts/'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Stiftungschweiz.ch: „Ohne Recherche geht gar nichts“<LucideExternalLink class="ml-1 h-4 w-4"
+        /></NuxtLink>
+      </li>
+      <li>
+        [8]
+        <NuxtLink
+          :to="'https://www.meilisearch.com/blog/semantic-search'"
+          :aria-label="'Besuche Website https://www.meilisearch.com/blog/semantic-search'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Meilisearch Blog: „What is Semantic Search?“<LucideExternalLink class="ml-1 h-4 w-4"
+        /></NuxtLink>
+      </li>
+    </StyledUl>
+  </article>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+  breadcrumbName: 'Herausforderungen der Stiftungsrecherche',
+})
+
+useHead({
+  title: 'Blog | Herausforderungen der Stiftungssuche',
+})
+
+useSeoMeta({
+  title: 'Blog | Herausforderungen der Stiftungssuche',
+  articleAuthor: ['Janine'],
+  articleModifiedTime: '2025-06-10',
+  articlePublishedTime: '2025-05-18',
+  ogTitle: 'Blog | Herausforderungen der Stiftungssuche',
+  description: 'Herausforderungen der Stiftungssuche',
+  ogDescription: 'Herausforderungen der Stiftungssuche',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

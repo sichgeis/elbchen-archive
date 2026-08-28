@@ -1,0 +1,222 @@
+<template>
+  <article>
+    <StyledH1>Von der Community lernen: Eure Insights aus dem Beta-Test der Stiftungskartei</StyledH1>
+    <div class="mb-6 mt-2 flex items-center gap-4">
+      <img src="/christian.webp" alt="Christian" class="size-14 rounded-full object-cover" />
+      <div>
+        <div class="font-semibold">Christian</div>
+        <div class="text-sm text-gray-500">30. Juni 2025</div>
+      </div>
+    </div>
+    <StyledParagraph>
+      Du hast vielleicht selbst an unserem Beta-Test teilgenommen – oder planst, Stiftungskartei künftig für deine
+      Projektarbeit auszuprobieren? Dann dürfte dich interessieren, was wir aus der ersten großen Feedback-Runde gelernt
+      haben. Wir glauben: Wirklich gute Tools entstehen nicht im Elfenbeinturm, sondern im echten Austausch mit
+      Menschen, die sie brauchen. Genau deshalb haben wir die Umfrage zur Beta-Phase gestartet und jede Rückmeldung
+      sorgsam ausgewertet.
+    </StyledParagraph>
+
+    <InfoBox
+      title="TL;DR"
+      description="Das Wichtigste aus unserem Beta-Test der Stiftungskartei auf einen Blick"
+      content="Im Beta-Test der Stiftungskartei haben Organisationen, Vereine und engagierte Einzelpersonen unsere Plattform ausprobiert und wertvolles Feedback gegeben. Besonders gelobt wurden die Übersichtlichkeit, die einfache Bedienung und die schnell gelieferten, relevanten Suchergebnisse. Viele Nutzer*innen wünschten sich zusätzlich noch mehr Unterstützung beim Einstieg, bessere Möglichkeiten zur regionalen Suche, mehr Sichtbarkeit für breit fördernde Stiftungen und zusätzliche Filterfunktionen. Wir nehmen diese Anregungen ernst und arbeiten bereits an einer Profi-Suche mit erweiterten Filtern und neuen Optionen – auch für Privatpersonen. Stiftungskartei bleibt ein gemeinsames Projekt mit der Community und wird kontinuierlich weiterentwickelt, damit Fördermittel für alle noch leichter zugänglich werden."
+    />
+
+    <StyledH2>Warum Beta-Feedback Gold wert ist</StyledH2>
+    <StyledParagraph>
+      Neue Software entwickelt man nicht für sich selbst – sondern für engagierte Menschen, Vereine und NGOs, die vor
+      echten Herausforderungen im Arbeitsalltag stehen. In der Beta-Testphase wollten wir daher von euch wissen: Wie
+      fühlt sich Stiftungskartei im Alltag an? Welche Ergebnisse liefert die Stiftungssuche? Wo punktet das Tool, und
+      was fehlt euch noch zur perfekten Förderung? Das Ziel: Stiftungskartei gemeinsam so weiterzuentwickeln, dass es
+      wirklich alltagstauglich und maximal nützlich wird. Die Teilnahme war freiwillig, alle Daten werden wie
+      versprochen DSGVO-konform und vertraulich behandelt.
+    </StyledParagraph>
+
+    <StyledH2>Wer hat mitgewirkt – und wie?</StyledH2>
+    <StyledParagraph>
+      Die Resonanz war groß und bunt gemischt: Über den sechswöchigen Beta-Test haben unterschiedlichste Organisationen
+      und Einzelpersonen teilgenommen – von Vereinen, NGOs und Beratungsstellen bis hin zu Privatpersonen mit ersten
+      Fundraising-Erfahrungen. Die Bandbreite reichte von neugierigen Einsteiger*innen in die Fördermittelwelt bis hin
+      zu erfahrenen Profis. Stiftungskartei wurde zur Recherche für ganz verschiedene Projekte genutzt: kulturelle
+      Initiativen, Sozialarbeit, Bildung, Umweltprojekte oder auch gezielte Anliegen wie Journalismus, Gesundheit oder
+      Start-ups.
+    </StyledParagraph>
+    <StyledParagraph>
+      Das Feedback haben wir über eine strukturierte Online-Umfrage gesammelt – mit Skalen, Freitext und spezifischen
+      Rückfragen. Ergänzt wurden die Ergebnisse durch vertiefende Einzelgespräche mit einigen besonders aktiven
+      Tester*innen.
+    </StyledParagraph>
+
+    <StyledH2>1. Learning: Übersichtlichkeit und Usability – was läuft gut, was muss noch besser werden?</StyledH2>
+    <StyledParagraph>
+      Das wohl wichtigste erste Fazit: Stiftungskartei wird grundsätzlich als übersichtlich, leicht verständlich und
+      intuitiv wahrgenommen. Viele lobten die klare Struktur, die Geschwindigkeit der Suche und den Verzicht auf
+      überflüssige Elemente – auch Einsteiger*innen fanden meist einen schnellen Zugang („aufgeräumtes "look and feel",
+      klare Struktur, keine Spielereien, sehr intuitive Bedienung“).
+    </StyledParagraph>
+    <StyledParagraph>
+      Besonders positiv wurde die kompakte Ergebnisdarstellung und die gute Lesbarkeit der Steckbriefe hervorgehoben.
+    </StyledParagraph>
+    <StyledParagraph>
+      Aber, auch das wurde ehrlich benannt: Einige wünschten sich mehr Hilfe beim Einstieg. Gerade zu Beginn fehlte
+      manchen Usern ein expliziter Onboarding-Schritt oder Step-by-Step-Beispiele, die die Suchlogik und den Ablauf noch
+      deutlicher machen. Auch das Thema Navigation wurde genannt: Die Rückkehr zur Suchübersicht und eine Such-Historie
+      haben wir nun in unsere Todo-Liste aufgenommen.
+    </StyledParagraph>
+
+    <StyledH2>2. Learning: Relevanz der Suchergebnisse & Abdeckung der Stiftungslandschaft</StyledH2>
+    <StyledParagraph>
+      Eine der wichtigsten Fragen im Beta-Test war natürlich: Findet Stiftungskartei tatsächlich die Stiftungen, die
+      wirklich zu euren Projekten passen? Das Meinungsbild der Tester*innen war hier insgesamt konstruktiv-optimistisch.
+      Viele Nutzer*innen kamen zu dem Fazit, dass die Recherche mit der Stiftungskartei schon jetzt einen deutlichen
+      Schub bringen kann – aber es gibt auch Stellen, an denen wir weiter feilen wollen.
+    </StyledParagraph>
+    <StyledParagraph>
+      Ein Punkt, der besonders häufig genannt wurde, betrifft die Suche nach lokalen Stiftungen. Aktuell basiert das
+      Matching auf dem Abgleich der Postleitzahl der suchenden Organisation mit der Postleitzahl der Stiftung. Je näher
+      diese Postleitzahlen, desto wahrscheinlicher gilt das Suchergebnis als lokal passend. Allerdings fließt in unser
+      Matching noch deutlich mehr ein: Neben der Regionalität berücksichtigt der Algorithmus auch Themen, Zielgruppen
+      und konkrete Projektschwerpunkte der Organisationen. Dadurch kommt es gelegentlich vor, dass Stiftungen empfohlen
+      werden, die zwar inhaltlich sehr gut passen, aber doch außerhalb der eigentlich gewünschten Region fördern. Durch
+      eure Rückmeldungen während des Beta-Tests haben wir dieses Problem noch besser verstanden – und bereits konkrete
+      Ideen gesammelt, wie wir die regionale Suche in Zukunft verbessern können. Das Thema steht jetzt ganz oben auf
+      unserer Feature-Roadmap.
+    </StyledParagraph>
+    <StyledParagraph>
+      Ein weiteres Feedback betraf die Sichtbarkeit von sogenannten “Generalisten” unter den Stiftungen – also
+      Einrichtungen mit sehr breiten Förderzielen, wie Sparkassenstiftungen, Lotteriestiftungen oder bestimmte
+      Landesstiftungen. Derzeit liefert unser Suchalgorithmus diese Stiftungen seltener aus, da oftmals andere,
+      thematisch noch besser passende Stiftungen weiter oben in der Ergebnisliste auftauchen. Gleichzeitig wissen wir
+      aus euren Kommentaren, dass diese breit fördernden Stiftungen gerade für das Fundraising vieler Organisationen
+      unabdingbar sind. Wir nehmen uns diesen Impuls zu Herzen: Künftig wollen wir solche Stiftungen gezielter sichtbar
+      machen und Nutzer*innen bei ihrer Wahl darin unterstützen, keine wichtigen Fördermöglichkeiten zu übersehen. Auch
+      das ist inzwischen ein fester Bestandteil der weiteren Produktentwicklung.
+    </StyledParagraph>
+    <StyledParagraph>
+      Insgesamt wurden die vorgeschlagenen Ergebnisse von vielen Teilnehmer*innen jedoch als relevant und hilfreich
+      bewertet. Die Aussage „Die Nutzung der App hatte einen Mehrwert gegenüber meinen bisherigen Recherche-Methoden“
+      erzielte im Schnitt 4,3 von 5 möglichen Punkten – ein sehr klares Zeichen dafür, dass Stiftungskartei schon heute
+      einen echten Unterschied bei der Stiftungs-Recherche machen kann und großes Potenzial für die Zukunft bietet.
+    </StyledParagraph>
+
+    <StyledH2>3. Learning: Wie gut sind die Detailinformationen in der Stiftungsdatenbank?</StyledH2>
+    <StyledParagraph>
+      Ein besonderer Fokus des Beta-Tests lag auf der Qualität und Vollständigkeit der bereitgestellten Informationen zu
+      den einzelnen Stiftungen. Viele Nutzer*innen hoben positiv hervor, dass die Steckbriefe in Stiftungskartei als
+      „hilfreich, ausführlich und kompakt“ wahrgenommen wurden. Besonders die übersichtliche Darstellung von
+      Kontaktinformationen und Förderkriterien fand großen Anklang. Genau das entspricht unserem Anspruch: Alle
+      öffentlich verfügbaren Informationen über deutsche Stiftungen an einer Stelle zusammenzufassen und so
+      aufzubereiten, dass sie im Fundraising-Alltag schnell nutzbar und verständlich sind.
+    </StyledParagraph>
+    <StyledParagraph>
+      Auch in den Umfrageergebnissen spiegelt sich dieses Feedback wider. Die Frage „Die Informationen zu den Stiftungen
+      waren vollständig und hilfreich“ wurde im Durchschnitt mit 4,0 von 5 Punkten bewertet – ein gutes Zeichen dafür,
+      dass unsere Datenbank bereits heute die Informationen liefert, die ihr braucht. Besonders bedeutsam ist dabei der
+      Vergleich zur klassischen Stiftungssuche, etwa über große bundesweite Verzeichnisse wie
+      <NuxtLink to="https://stiftungssuche.de" target="_blank" class="underline">stiftungssuche.de</NuxtLink>:
+      Nutzerinnen und Nutzer erleben mit Stiftungskartei zum einen den Vorteil, dass unsere KI-Suche die individuellen
+      Kontexte und Profile der suchenden Organisationen einbezieht. Zum anderen überzeugt unsere Stiftungsdatenbank
+      durch Detailtiefe, Aktualität und die knackige, aufbereitete Übersicht zu jeder einzelnen Stiftung.
+    </StyledParagraph>
+    <StyledParagraph>
+      Durch diese Kombination kann der aufwändige Rechercheaufwand, der oft hinter einer gezielten Stiftungssuche
+      steckt, deutlich reduziert werden. Viele Testende konnten bereits feststellen, wie viel schneller und gezielter
+      sie über Stiftungskartei relevante Informationen fanden – ein Schritt, der die Qualifizierung passender
+      Förderstiftungen spürbar erleichtert.
+    </StyledParagraph>
+
+    <StyledH2>4. Learning: Wünsche nach Zusatzfunktionen, Filtern & Personalisierung</StyledH2>
+    <StyledParagraph>
+      Ein zentrales Thema im Feedback vieler Teilnehmender waren Wünsche nach zusätzlichen Funktionen und mehr
+      Personalisierungsmöglichkeiten. Dabei zeigte sich sehr deutlich: Egal ob erfahrene Fundraising-Profis oder
+      Neueinsteiger*innen, der Bedarf an flexibleren Suchoptionen und Unterstützung für Privatpersonen und kleinere
+      Initiativen ist groß.
+    </StyledParagraph>
+    <StyledParagraph>
+      So wurde vor allem der Wunsch nach erweiterten Filterfunktionen besonders häufig genannt. Viele Nutzer*innen
+      möchten beispielsweise gezielt nach bestimmten Regionen, Fördersummen oder Themenfeldern filtern können. Genau an
+      dieser Stelle setzen wir bereits in unserer Weiterentwicklung an: Die Profi-Suche, die genau solche
+      differenzierten Filter bietet, wird aktuell intern getestet. Wer Interesse hat, kann sich gerne auf unserer
+      Early-Bird-Liste vormerken lassen, um zu den ersten Tester*innen zu gehören.
+    </StyledParagraph>
+    <StyledParagraph>
+      Auch die Möglichkeit, Treffer als Favoriten zu markieren oder vergangene Suchanfragen in einer Suchhistorie
+      anzusehen, rangiert ganz oben auf unserer Feature-Liste. Gerade für alle, die regelmäßig Fördermittel
+      recherchieren oder verschiedene Projekte parallel verfolgen, schaffen solche Funktionen spürbar mehr Übersicht und
+      Effizienz.
+    </StyledParagraph>
+    <StyledParagraph>
+      Ein weiterer wichtiger Punkt, den wir aus dem Beta-Test mitnehmen, ist die Stiftungssuche für Privatpersonen.
+      Bisher richtet sich die Stiftungskartei primär an Organisationen, Vereine und NGOs – einfach, weil wir so schnell
+      ein einen echten Mehrwert bieten konnten. Gleichzeitig wurde mehrfach angemerkt, dass auch Einzelpersonen,
+      beispielsweise für Dissertationen, persönliche Projekte oder ehrenamtliche Vorhaben, gezielt nach Stiftungen
+      suchen und Unterstützung benötigen. Die positive Resonanz auf diese Idee sowie Statements wie „Ein Use-Case könnte
+      etwa auch der Versuch sein, seine Qualifikationsschrift (etwa: Dissertation) durch eine Stiftung fördern zu
+      lassen“ bestätigen uns, dass wir in diesem Bereich weiterdenken und passende Lösungen entwickeln möchten.
+    </StyledParagraph>
+
+    <StyledH2>Fazit & Ausblick – Gemeinsam zum besseren Produkt</StyledH2>
+    <StyledParagraph>
+      Unser großes Dankeschön gilt allen, die Stiftungskartei getestet, ihre Erfahrungen geteilt und uns ihre Wünsche
+      mitgegeben haben! Ohne die Community wäre Stiftungskartei nicht das, was es heute ist – ein Werkzeug, das sich am
+      Bedarf von engagierten Menschen orientiert und seinen Mehrwert Schritt für Schritt mit euch zusammen
+      weiterentwickelt.
+    </StyledParagraph>
+    <StyledParagraph>
+      Mit einer durchschnittlichen Bewertung von 4,4 von 5 Punkten auf die Frage „Wie wahrscheinlich ist es, dass du die
+      App weiterempfehlen würdest?“ geben uns die Rückmeldungen Rückenwind für die nächsten Schritte. Das
+      Build-Measure-Learn-Prinzip bleibt unser Kompass: Wir entwickeln, messen, lernen und erklären transparent, wie
+      sich Stiftungskartei verändert.
+    </StyledParagraph>
+    <StyledParagraph>
+      Was passiert als Nächstes?
+      <StyledUl>
+        <li>
+          Wir setzen die Rückmeldungen um: Die Profi-Suche mit besseren Filtern, eine gezieltere regionale Suche und die
+          Öffnung für Privatpersonen stehen ganz oben auf der Roadmap.
+        </li>
+        <li>
+          Wir bauen die Community weiter aus: Du bekommst auf Wunsch regelmäßig Updates, kannst jederzeit Feedback geben
+          oder spannende Förderungserfolge teilen.
+        </li>
+        <li>
+          Und natürlich: Wir feiern eure Erfolgsgeschichten! Erzähle uns gerne, wie Stiftungskartei dir beim Finden der
+          passenden Förderung geholfen hat.
+        </li>
+      </StyledUl>
+    </StyledParagraph>
+    <StyledParagraph>
+      Stiftungskartei bleibt eine Plattform aus der Community – für die Community. Egal ob als Early-Bird, stille
+      Beobachter*in oder aktives Feedback-Mitglied: Zusammen sorgen wir dafür, dass Förderung leichter zugänglich,
+      passgenauer und wirkungsvoller wird.
+    </StyledParagraph>
+    <StyledParagraph>
+      Neugierig geworden? Trag dich in unsere
+      <NuxtLink class="underline" to="/offering">Early-Bird-Liste</NuxtLink> ein, probiere Stiftungskartei selbst aus,
+      und lass uns wissen, wie wir dich noch besser unterstützen können!
+    </StyledParagraph>
+  </article>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+  breadcrumbName: 'Beta-Test Insights',
+})
+
+useHead({
+  title: 'Blog | Beta-Test Insights',
+})
+
+useSeoMeta({
+  title: 'Blog | Beta-Test Insights',
+  articleAuthor: ['Christian'],
+  articleModifiedTime: '2025-06-30',
+  articlePublishedTime: '2025-06-30',
+  ogTitle: 'Blog | Beta-Test Insights',
+  description: 'Von der Community lernen: Eure Insights aus dem Beta-Test der Stiftungskartei',
+  ogDescription: 'Von der Community lernen: Eure Insights aus dem Beta-Test der Stiftungskartei',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

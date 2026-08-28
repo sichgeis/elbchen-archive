@@ -1,0 +1,202 @@
+<template>
+  <article>
+    <StyledH1>Technik-Insights: Semantische Suche vs. klassische Schlagwortsuche</StyledH1>
+    <div class="mb-6 mt-2 flex items-center gap-4">
+      <img src="/hauke.webp" alt="Hauke" class="size-14 rounded-full object-cover" />
+      <div>
+        <div class="font-semibold">Hauke</div>
+        <div class="text-sm text-gray-500">9. Juni 2025</div>
+      </div>
+    </div>
+    <StyledParagraph>
+      Egal ob PDF-Bericht, Datenbank oder Webseiten: Wer in einer großen Flut von Texten die passenden Informationen
+      finden will, braucht eine intelligente Suche. Genau deshalb nutzt Stiftungskartei moderne semantische
+      Suchverfahren, die weit über das blinde Abgleichen von Schlagworten hinausgehen.
+    </StyledParagraph>
+    <StyledParagraph>
+      In diesem Beitrag werfen wir einen Blick darauf, wie diese Technik entstanden ist, wo ihre Stärken liegen und
+      warum sie deine Stiftungsrecherche beschleunigen wird.
+    </StyledParagraph>
+    <StyledH2>Von den ersten Suchmaschinen zur KI-Revolution</StyledH2>
+    <StyledParagraph>
+      Anfang der 1990er sortierten Tools wie Archie oder AltaVista das Web lediglich nach Wörtern, die exakt in einer
+      Datei vorkamen. Falsch getippt? Pech gehabt. Als Google Ende der 1990er mit PageRank und später mit statistischen
+      Verfahren wie TF-IDF (Term Frequency – Inverse Document Frequency) auf den Markt kam, verbesserte sich zwar das
+      Ranking, doch das Grundproblem blieb: Wer ein falsches Wort wählte, fand nichts.
+    </StyledParagraph>
+    <StyledParagraph>
+      Mit den Durchbrüchen in Natural Language Processing – vor allem dank Transformer-Modellen wie BERT (2019) und
+      später GPT-4 – lernte Software nicht nur <em>was</em> wir schreiben, sondern <em>was wir meinen</em> zu erfassen.
+      Begriffe werden dabei als mehrdimensionale Vektoren abgebildet, deren Abstände die semantische Nähe widerspiegeln.
+      So erkennt ein System, dass „Kindergarten“ und „Kita“ dasselbe Konzept beschreiben, sich also semantisch ähnlich
+      sind<sup>[1]</sup>.
+    </StyledParagraph>
+    <StyledH2>Der Mehrwert der semantischen Suche</StyledH2>
+    <StyledParagraph>
+      Die klassische Schlagwortsuche funktioniert wie der „Strg+F“-Befehl: Sie sucht Zeichenketten, ignoriert aber
+      Synonyme, Tippfehler oder Kontext. Ergebnislisten sind darum oft entweder zu lang, weil der Suchbegriff nicht
+      spezifisch genug ist (Alles enthält das Wort „<i>sozial</i>“) oder komplett leer, weil die Suchbegriffe zu
+      spezifisch sind („<i>inklusive nachbarschaftliche Gemeinschaftsküche</i>“).
+    </StyledParagraph>
+    <StyledParagraph> Die semantische Suche löst dieses Dilemma in drei Schritten: </StyledParagraph>
+    <StyledUl>
+      <li>
+        <b>Bedeutungsvektoren erzeugen:</b> Ein Sprachmodell wandelt jedes Wort, jede Phrase oder sogar ganze Dokumente
+        in Zahlenreihen um, die ihre Bedeutung widerspiegeln.
+      </li>
+      <li>
+        <b>Kontext berücksichtigen:</b> Die Technik berücksichtigt Mehrdeutigkeiten („Bank“ als Sitzmöbel oder
+        Finanzinstitut) und ordnet sie innerhalb des Zusammenhangs korrekt zu.
+      </li>
+      <li>
+        <b>Ähnlichkeiten berechnen:</b> Treffer werden nach <em>inhaltlicher</em> Nähe sortiert, nicht nach bloßer
+        Wortgleichheit. Dadurch landen wirklich relevante Ergebnisse ganz oben.
+      </li>
+    </StyledUl>
+    <StyledParagraph>
+      Das Ganze ist rechenintensiver, spart aber später Zeit bei der Suche und verhindert leere Suchergebnisse durch
+      Tippfehler oder Fachjargon. Für Nutzer*innen fühlt es sich an als ob die Suche versteht,
+      <em>was</em> man sucht – nicht nur, <em>wie</em> man es beschreibt.
+    </StyledParagraph>
+    <StyledParagraph>
+      Ein Beispiel aus der Praxis zeigt, dass semantische Methoden echte Mehrwerte bringen: Die Lernplattform Course
+      Hero war mit klassischen Schlagwortsuchen kaum in der Lage, Studierende zuverlässig zu den gesuchten
+      Lehrmaterialien zu führen. Trotz über 60 Millionen Dokumenten blieben viele Anfragen unbeantwortet, da
+      Fachbegriffe, Synonyme und Variationen von Fragestellungen nicht erfasst wurden. Nach der Umstellung auf eine
+      moderne semantische Suche konnten 35% mehr Nutzeranfragen automatisch mit passenden Inhalten beantwortet
+      werden<sup>[2]</sup>.
+    </StyledParagraph>
+    <StyledH2>Hybride semantische Suche: Kern der Stiftungskartei</StyledH2>
+    <StyledParagraph>
+      Förderstiftungen sind Organisationen mit vielen Facetten, die sich insbesondere auszeichnen durch:
+      <StyledUl>
+        <li><b>Stiftungszweck,</b> ihre Mission und Förderschwerpunkte</li>
+        <li><b>Historische Projekte</b>, die sie schon unterstützt haben</li>
+        <li><b>Zielgruppen,</b> Angesprochene und Empfänger ihrer Förderung</li>
+        <li><b>Geografischer Radius</b> – also das Gebiet, in dem sie fördern</li>
+      </StyledUl></StyledParagraph
+    >
+    <StyledParagraph>
+      Damit deine Suche besonders treffsicher wird, wandelt die Stiftungskartei diese Eigenschaften jeder Stiftung in
+      einen mathematischen „Fingerabdruck“ um. Wenn du eine Suche startest, dann analysiert unser System deine
+      Organisation und dein Vorhaben ebenfalls nach diesen Facetten (deine Themen, deine bereits durchgeführten Projekte
+      und deine Zielgruppen). Daraus wird dann genauso ein Fingerabdruck erzeugt, den unsere Suche blitzschnell mit den
+      Fingerabdrücken der Stiftungen in der Datenbank vergleicht. Diese Erweiterung der semantischen Suche wird auch
+      <i>Multi-Attribute Semantic Search</i> genannt, weil man eine semantische Suche über mehrere Attribute (Themen,
+      Projekte, Zielgruppen) durchführt<sup>[3]</sup>.
+    </StyledParagraph>
+    <StyledParagraph> </StyledParagraph>
+    <StyledParagraph>
+      Zusätzlich werden wichtige Merkmale wie der geographische Radius als Filterkriterien berücksichtigt und
+      automatisch in die Reihenfolge der Suchergebnisse einbezogen. Diese Kombination aus einer semantischen Suche und
+      einer klassischen Filterlogik wird häufig als <i>hybride semantische Suche</i> bezeichnet und ist der Kern des
+      fortschrittlichen Suchalgorithmus von Stiftungskartei.
+    </StyledParagraph>
+    <StyledParagraph>
+      So findest du an oberster Stelle die Förderstiftungen, die inhaltlich und räumlich am besten zu dir passen – und
+      nicht nur die größten Namen.
+    </StyledParagraph>
+    <StyledH2>Ein Werkzeug für NGOs, Vereine und Berater*innen</StyledH2>
+    <StyledParagraph>
+      Viele Non-Profits jonglieren ehrenamtlich mit knappen Ressourcen. Klassische Stiftungsverzeichnisse verlangen
+      jedoch stundenlanges Filtern, Kopieren und Querlesen von PDFs. Die Beschäftigung mit deinem Vorhaben und eine
+      sorgfältige Recherche von Fördermöglichkeiten ist natürlich wichtig. Wir können dir diese Verantwortung nicht
+      abnehmen. Aber: Stiftungskartei will dir diesen Schritt erleichtern. Wir verkürzen den Prozess durch diese
+      Automatisierungen:
+    </StyledParagraph>
+    <StyledUl>
+      <li><b>Organisation eingeben</b> – Der Name deiner Organisation reicht, optional eine kurze Projektidee.</li>
+      <li><b>Automatische Analyse deiner Organisation</b> – Basierend auf öffentlichen Informationen.</li>
+      <li>
+        <b>KI-Analyse</b> – Wir extrahieren Mission, Tätigkeitsfelder, Region und Zielgruppen deiner Organisation.
+      </li>
+      <li><b>Semantischer Abgleich</b> – Deine Organisations-Attribute treffen auf die der Stiftungen.</li>
+      <li>
+        <b>Sortierte Trefferliste</b> – Gewichtet nach Relevanz und inklusive Steckbriefen für schnelle Qualifizierung.
+      </li>
+    </StyledUl>
+    <StyledParagraph>
+      Neun von zehn Förderanträge scheitern am fehlenden Fit zwischen Projekt und Stiftung<sup>[4]</sup>. Wir wollen das
+      ändern und dir die passendsten Stiftungen vorschlagen, um dich in deinem Engagement zu stärken. Du sollst mehr
+      Zeit haben das zu tun, was dir wirklich wichtig ist und weniger Zeit mit der Recherche verbringen.
+    </StyledParagraph>
+    <StyledH2>Fazit</StyledH2>
+    <StyledParagraph>
+      Die Reise von der Schlagwort- zur semantischen Suche hat die Online-Recherche grundlegend verändert. Durch die
+      einen hybriden Ansatz bei der semantischen Suche über mehre Attribute legt die Stiftungskartei noch eine Schippe
+      drauf: Sie betrachtet jede Stiftung mit all ihren Facetten und matched sie mit deinem Projekt und Vorhaben auf
+      inhaltlicher und geografischer Ebene. So findest du schneller, was wirklich passt – und konzentrierst dich auf
+      das, was zählt: dein gesellschaftliches Engagement.
+    </StyledParagraph>
+    <StyledParagraph>
+      Neugierig geworden? Melde dich jetzt zu unserem Newsletter an und bleib auf dem Laufenden über neue Entwicklungen,
+      geplanten Funktionen und Erkenntnisse des Beta-Tests!
+    </StyledParagraph>
+    <StyledH2>Quellen</StyledH2>
+    <StyledUl>
+      <li>
+        [1]
+        <NuxtLink
+          :to="'https://www.meilisearch.com/blog/semantic-search'"
+          :aria-label="'Besuche Website https://www.meilisearch.com/blog/semantic-search'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Meilisearch Blog: „What is Semantic Search?“<LucideExternalLink class="ml-1 h-4 w-4" />
+        </NuxtLink>
+      </li>
+      <li>
+        [2]
+        <NuxtLink
+          :to="'https://haystackconf.com/files/slides/haystack2022/Scalable-Semantic-Search-at-Course-Hero-Kazem-Jahanbakhsh.pdf'"
+          :aria-label="'Besuche Website https://haystackconf.com/files/slides/haystack2022/Scalable-Semantic-Search-at-Course-Hero-Kazem-Jahanbakhsh.pdf'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Scalable Semantic Search @ Course Hero<LucideExternalLink class="ml-1 h-4 w-4" />
+        </NuxtLink>
+      </li>
+      <li>
+        [3]
+        <NuxtLink
+          :to="'https://superlinked.com/vectorhub/articles/multi-attribute-semantic-search'"
+          :aria-label="'Besuche Website https://superlinked.com/vectorhub/articles/multi-attribute-semantic-search'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Superlinked: „Multi-Attribute Semantic Search“ (2024)<LucideExternalLink class="ml-1 h-4 w-4" />
+        </NuxtLink>
+      </li>
+      <li>
+        [4]
+        <NuxtLink
+          :to="'https://stiftungssuche.de/tipps-zur-antragstellung/'"
+          :aria-label="'Besuche Website https://stiftungssuche.de/tipps-zur-antragstellung/'"
+          target="_blank"
+          class="inline-flex items-center hover:underline"
+          >Stiftungssuche.de: „Tipps zur Antragstellung“ (2023)<LucideExternalLink class="ml-1 h-4 w-4" />
+        </NuxtLink>
+      </li>
+    </StyledUl>
+  </article>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+  breadcrumbName: 'Technik-Insights: Semantische Suche',
+})
+
+useHead({
+  title: 'Blog | Technik-Insights: Semantische Suche',
+})
+
+useSeoMeta({
+  title: 'Blog | Technik-Insights: Semantische Suche',
+  articleAuthor: ['Hauke'],
+  articleModifiedTime: '2025-06-09',
+  articlePublishedTime: '2025-06-09',
+  ogTitle: 'Blog | Technik-Insights: Semantische Suche',
+  description: 'Technik-Insights: Semantische Suche',
+  ogDescription: 'Technik-Insights: Semantische Suche',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

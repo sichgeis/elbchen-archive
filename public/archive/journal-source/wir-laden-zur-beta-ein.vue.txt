@@ -1,0 +1,129 @@
+<template>
+  <article>
+    <StyledH1>Wir laden ein zum Beta-Testing</StyledH1>
+    <div class="mb-6 mt-2 flex items-center gap-4">
+      <img src="/christian.webp" alt="Christian" class="size-14 rounded-full object-cover" />
+      <div>
+        <div class="font-semibold">Christian</div>
+        <div class="text-sm text-gray-500">2. Juni 2025</div>
+      </div>
+    </div>
+    <StyledParagraph>
+      Du hast schon in unserem ersten Blogbeitrag gelesen, wie aufwändig klassische Stiftungsrecherche ist und wie
+      Stiftungskartei mit KI diese Suche neu denkt. Nun starten wir in die Beta-Testphase – und du kannst von Anfang an
+      dabei sein! Wir suchen engagierte Non-Profit-Organisationen, Vereine und Fördermittelberater*innen, die mit uns
+      gemeinsam die Zukunft der Fördermittel- und Stiftungsrecherche gestalten. In diesem Beitrag erfährst du was dich
+      im Beta-Test erwartet.
+    </StyledParagraph>
+    <StyledParagraph>
+      > Wenn du jetzt gleich loslegen willst, kannst hier direkt eine Suche starten:
+      <NuxtLink class="underline" to="/"><b>Loslegen</b></NuxtLink>
+    </StyledParagraph>
+    <StyledH2>Warum machen wir ein Beta-Testing?</StyledH2>
+    <StyledParagraph>
+      Beta-Testing ist weit mehr als nur das Aufspüren technischer Kleinigkeiten. Es ist die letzte Etappe vor dem
+      offiziellen Launch, in der echte Nutzer*innen unser Produkt testen und uns wertvolle Rückmeldungen geben. Durch
+      dein Feedback erfahren wir, was gut funktioniert und wo noch Verbesserungsbedarf besteht. Dabei interessiert uns
+      vor allem:
+    </StyledParagraph>
+    <StyledUl>
+      <li>Wie intuitiv ist die Bedienung?</li>
+      <li>Welche Funktionen wünschst du dir?</li>
+      <li>Ist die Darstellung aufgeräumt und übersichtlich?</li>
+      <li>Wie gut passen die Suchergebnisse?</li>
+    </StyledUl>
+    <StyledParagraph>
+      All das sind Aspekte, die für uns sehr wichtig sind, die wir aber nicht für dich entscheiden wollen. Wir brauchen
+      dein Feedback!
+    </StyledParagraph>
+    <StyledH2>Die erste Suche – So funktioniert der Beta-Test</StyledH2>
+    <StyledParagraph>
+      Du willst dabei sein? Das geht ganz ohne Anmeldung über die
+      <NuxtLink class="underline" to="/">Startseite</NuxtLink>. Wir freuen uns über Feedback via Email an
+      <a class="underline" href="mailto:hallo@foerderwerk.org">hallo@foerderwerk.org</a> oder über unser
+      <NuxtLink
+        to="https://docs.google.com/forms/d/e/1FAIpQLSeDXVDmVObVrBnV85l4km267_gJk7hjn3INidC5m10KeePHbw/viewform?usp=button"
+        target="_blank"
+        class="underline"
+        >Feedback-Formular</NuxtLink
+      >.
+    </StyledParagraph>
+    <StyledParagraph>
+      Die Beta-Phase ist bewusst auf mehrere Wochen ausgelegt: Das gibt dir ausreichend Gelegenheit, mit
+      <em>Stiftungskartei</em>
+      verschiedene Suchanfragen durchzuprobieren – egal, ob du bereits mitten in der Antragssaison steckst oder erste
+      Sondierungen für kommende Projekte angehen willst. Während dieser Zeit halten wir dich gerne regelmäßig im
+      Newsletter auf dem Laufenden: Du erfährst als Erste*r, wenn wir neue Funktionen ausrollen, Bugs beheben oder
+      Verbesserungen aus der Community umsetzen.
+    </StyledParagraph>
+    <StyledParagraph> Der Zeitplan im Überblick: </StyledParagraph>
+    <StyledUl>
+      <li><b>Anmeldung und Onboarding:</b> Sofort möglich – die Beta-Version ist für dich ab sofort freigeschaltet.</li>
+      <li>
+        <b>Testphase:</b> Du suchst, findest, gibst Feedback – so oft und so viel du möchtest. Wenn du aktiv
+        mitentwickeln willst, freuen wir uns zudem über einen persönlichen Austausch! Gerne machen wir einen Telefon-
+        oder Video-Termin mit dir aus, wenn du das willst.
+      </li>
+      <li>
+        <b>Regelmäßige Updates:</b> Wir informieren dich über neue Funktionen, teilen Erfahrungsberichte und laden zu
+        kurzen Umfragen ein. Nach etwa sechs Wochen ziehen wir gemeinsam Bilanz: Welche Features waren hilfreich, wo
+        gibt es noch offene Wünsche?
+      </li>
+      <li>
+        <b>Erfolg teilen:</b> Wir sind gespannt auf Erfolgsgeschichten – und freuen uns, wenn du uns erlaubst deine
+        Erfahrungen mit Anderen zu teilen.
+      </li>
+    </StyledUl>
+    <StyledParagraph>
+      Im Anschluss stellen wir die gewonnenen Erkenntnisse in einem eigenen Beitrag vor und geben einen Ausblick auf
+      kommende Features – gestaltet durch dein Feedback und das der Community.
+    </StyledParagraph>
+    <StyledH2>Ausblick</StyledH2>
+    <StyledParagraph>
+      Schon heute hilft dir <em>Stiftungskartei</em> dabei, mit wenigen Klicks zuverlässige und für dein Projekt
+      wirklich relevante Stiftungen zu finden. Möglich macht das unsere KI-gestützte semantische Suche, die Daten aus
+      über 10.000 deutschen Stiftungen intelligent durchsuchbar macht. Du erhältst übersichtliche, leicht verständliche
+      Steckbriefe zu allen Treffern – ohne stundenlange Recherche und fragmentierte Listen. Damit kannst du mehr Zeit
+      und Energie in dein eigentliches Ziel stecken: die erfolgreiche Umsetzung deiner Projekte.
+    </StyledParagraph>
+    <StyledParagraph>
+      Doch das ist erst der Anfang! Wir haben noch viele Ideen, wie wir die <b>Stiftungskartei</b> verbessern können. Um
+      nur ein angedachtes Feature zu nennen: mit der <b>Profi-Suche</b> kannst du gezielt mit individuellen Filtern und
+      erweiterten Parametern auf unserer Datenbank recherchieren – ideal für anspruchsvolle und komplexe Projekte. Hier
+      findest du alle Details zu unseren Profi-Funktionen:
+      <NuxtLink class="underline" to="/offering">Unser Angebot</NuxtLink>
+    </StyledParagraph>
+    <StyledParagraph>
+      Dein Feedback im Beta-Test hier ist der Schlüssel, um informierter zu entscheiden, welche unserer Ideen auch
+      tatsächlich für dich interessant sind. Jede Anregung, jeder Erfahrungsbericht fließt direkt in die
+      Weiterentwicklung ein – gemeinsam bauen wir eine Software, dass dir die Fördermittelrecherche erleichtert.
+    </StyledParagraph>
+    <StyledParagraph>
+      Werde jetzt Teil unserer Community! Nutze die Beta-Phase, gestalte die Zukunft der Stiftungsrecherche mit und
+      finde die Förderung, die wirklich zu dir und deinem Projekt passt. Wir freuen uns auf deinen Input!
+    </StyledParagraph>
+  </article>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+  breadcrumbName: 'Wir laden zur Beta ein',
+})
+
+useHead({
+  title: 'Blog | Wir laden zur Beta ein',
+})
+
+useSeoMeta({
+  title: 'Blog | Wir laden zur Beta ein',
+  articleAuthor: ['Christian'],
+  articleModifiedTime: '2025-06-02',
+  articlePublishedTime: '2025-06-02',
+  ogTitle: 'Blog | Wir laden zur Beta ein',
+  description: 'Wir laden zur Beta ein',
+  ogDescription: 'Wir laden zur Beta ein',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

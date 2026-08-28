@@ -1,0 +1,130 @@
+<template>
+  <StyledH1>Unser Blog</StyledH1>
+  <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-1">
+    <Card
+      v-for="post in blogPosts"
+      :key="post.slug"
+      class="rounded-xl border border-dashed border-gray-300 transition-colors duration-150 hover:bg-gray-50"
+    >
+      <NuxtLink :to="post.slug" class="block h-full">
+        <CardHeader>
+          <CardTitle class="text-xl">{{ post.title }}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div class="flex items-center gap-4">
+            <img :src="`/${post.image}`" :alt="post.author" class="size-14 rounded-full object-cover" />
+            <div>
+              <div class="font-semibold">{{ post.author }}</div>
+              <div class="text-sm">{{ formatDate(post.date) }}</div>
+            </div>
+          </div>
+          <p class="mt-4 line-clamp-3 text-sm">
+            {{ post.excerpt }}
+          </p>
+        </CardContent>
+      </NuxtLink>
+    </Card>
+  </div>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+  breadcrumbName: 'Unser Blog',
+})
+
+const blogPosts = [
+  {
+    title: 'Warum Stiftungssuche so aufwändig ist – und wie Stiftungskartei das ändert',
+    author: 'Janine',
+    date: '2025-05-18',
+    slug: '/blog/herausforderungen-stiftungsrecherche',
+    image: 'janine.webp',
+    excerpt:
+      'Stell dir vor: Du hast eine tolle Projektidee, suchst dringend Förderung – und stehst vor einer unüberwindbaren Mauer aus Verzeichnissen, Excel-Listen und alten PDF-Berichten. Du klickst dich von Datenbank zu Datenbank. Die Informationen sind verstreut, veraltet oder unvollständig, und nach Stunden der Suche...',
+  },
+  {
+    title: 'Förderwerk: Der smarte Weg zu Fördermitteln',
+    author: 'Hauke',
+    date: '2025-05-26',
+    slug: '/blog/foerderwerk-smarter-weg',
+    image: 'hauke.webp',
+    excerpt:
+      'Förderanträge sind ein große Herausforderung: Zersplitterte Informationen, endlose Recherche, bürokratische Hürden. Kleine Organisationen und Vereine verbringen Wochen damit, die richtige Förderung zu finden – und scheitern oft an den komplexen Anforderungen. Das Ergebnis? Gute Ideen bleiben unverwirklicht...',
+  },
+  {
+    title: 'Wir laden ein zum Beta-Testing',
+    author: 'Christian',
+    date: '2025-06-02',
+    slug: '/blog/wir-laden-zur-beta-ein',
+    image: 'christian.webp',
+    excerpt:
+      'Du hast schon in unserem ersten Blogbeitrag gelesen, wie aufwändig klassische Stiftungsrecherche ist und wie Stiftungskartei mit KI diese Suche neu denkt. Nun starten wir in die Beta-Testphase – und du kannst von Anfang an dabei sein! Wir suchen engagierte Non-Profit-Organisationen, Vereine und Fördermittelberater*innen, die mit uns gemeinsam die Zukunft der Fördermittel- und Stiftungsrecherche gestalten...',
+  },
+  {
+    title: 'Technik-Insights: Semantische Suche vs. klassische Schlagwortsuche',
+    author: 'Hauke',
+    date: '2025-06-09',
+    slug: '/blog/technik-insights-semantische-suche',
+    image: 'hauke.webp',
+    excerpt:
+      'Egal ob PDF-Bericht, Datenbank oder Webseiten: Wer in einer großen Flut von Texten die passenden Informationen finden will, braucht eine intelligente Suche. Genau deshalb nutzt Stiftungskartei moderne semantische Suchverfahren, die weit über das blinde Abgleichen von Schlagworten hinausgehen...',
+  },
+  {
+    title: 'Alex – Unser KI-Marketeer bringt Stiftungskartei ins Gespräch',
+    author: 'Christian',
+    date: '2025-06-16',
+    slug: '/blog/alex',
+    image: 'christian.webp',
+    excerpt:
+      'Eine Idee, die begeistert. Ein Produkt, das echten Mehrwert bietet. Ein kleines Gründerteam, das mit Leidenschaft entwickelt. Klingt nach der perfekten Mischung. Doch auf dem Weg von „starker Technologie“ zu „Erfolg am Markt“ lauert eine riesige Herausforderung: Sichtbarkeit und Reichweite...',
+  },
+  {
+    title: 'Technik-Insights: So analysieren wir die Deutsche Stiftungslandschaft',
+    author: 'Christian',
+    date: '2025-06-23',
+    slug: '/blog/technik-insights-stiftungsdatenbank',
+    image: 'christian.webp',
+    excerpt:
+      'Stell dir vor, du suchst passgenaue Förderstiftungen – und bekommst auf Knopfdruck nicht nur alle wichtigen Details, sondern auch wirklich relevante Treffer. Was im Alltag der allermeisten NGOs wie Wunschdenken klingt, ist das Ziel der Stiftungskartei. Damit das gelingt, braucht es eines...',
+  },
+  {
+    title: 'Von der Community lernen: Eure Insights aus dem Beta-Test',
+    author: 'Christian',
+    date: '2025-06-30',
+    slug: '/blog/beta-test-insights',
+    image: 'christian.webp',
+    excerpt:
+      'Du hast vielleicht selbst an unserem Beta-Test teilgenommen – oder planst, Stiftungskartei künftig für deine Projektarbeit auszuprobieren? Dann dürfte dich interessieren, was wir aus der ersten großen Feedback-Runde gelernt haben. Wir glauben: Wirklich gute Tools entstehen nicht im Elfenbeinturm...',
+  },
+  {
+    title: 'Von der Idee zum Social Startup',
+    author: 'Christian',
+    date: '2025-07-08',
+    slug: '/blog/social-startup',
+    image: 'christian.webp',
+    excerpt:
+      'Heute möchte ich dich mitnehmen auf eine Reise hinter die Kulissen: Wie ist aus einer digitalen Produktidee ein Social Startup geworden, das gesellschaftliche Wirkung ins Zentrum seiner Arbeit stellt? Und was bedeutet eigentlich Social Entrepreneurship und Social Innovation für das Team...',
+  },
+]
+
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString)
+  return date.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })
+}
+
+useHead({
+  title: 'Blog | Übersicht',
+})
+
+useSeoMeta({
+  title: 'Blog | Alle Artikel im Überblick',
+  ogTitle: 'Blog | Alle Artikel im Überblick',
+  description:
+    'Eine Übersicht über alle unsere Blogartikel zu Themen rund um Stiftungssuche, KI und unsere Fördermittel-Plattform.',
+  ogDescription:
+    'Eine Übersicht über alle unsere Blogartikel zu Themen rund um Stiftungssuche, KI und unsere Fördermittel-Plattform.',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

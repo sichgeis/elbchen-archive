@@ -1,0 +1,126 @@
+<template>
+  <article>
+    <StyledH1>Alex – Unser KI-Marketeer bringt Stiftungskartei ins Gespräch</StyledH1>
+    <div class="mb-6 mt-2 flex items-center gap-4">
+      <img src="/christian.webp" alt="Christian" class="size-14 rounded-full object-cover" />
+      <div>
+        <div class="font-semibold">Christian</div>
+        <div class="text-sm text-gray-500">16. Juni 2025</div>
+      </div>
+    </div>
+    <StyledParagraph>
+      Eine Idee, die begeistert. Ein Produkt, das echten Mehrwert bietet. Ein kleines Gründerteam, das mit Leidenschaft
+      entwickelt. Klingt nach der perfekten Mischung. Doch auf dem Weg von „starker Technologie“ zu „Erfolg am Markt“
+      lauert eine riesige Herausforderung: Sichtbarkeit und Reichweite. Wie machen wir mehr Menschen, Vereinen und
+      Organisationen klar, dass Stiftungskartei die digitale Fördermittelrecherche neu erfindet? Unsere Lösung: Wir
+      holen uns Unterstützung ins Team, die nie müde wird, immer freundlich bleibt und Outreach skalieren kann – eine
+      eigene KI-Kolleg*in namens Alex.
+    </StyledParagraph>
+    <StyledH2>Die Herausforderung – „Ein gutes Produkt reicht nicht“</StyledH2>
+    <StyledParagraph>
+      Wir sind stolz auf das, was wir mit Stiftungskartei und Förderwerk gebaut haben. Produktentwicklung, Technik und
+      die richtigen digitalen Werkzeuge sind unser Zuhause. Doch so häufig vergessen: Das beste Produkt der Welt bringt
+      nichts, wenn keiner davon weiß. Outreach, Vertrieb und authentische Ansprache werden zur entscheidenden Hürde,
+      gerade wenn die eigenen Ressourcen limitiert sind.
+    </StyledParagraph>
+    <StyledParagraph>
+      Hier knüpfen wir an unsere Grundüberzeugung an, die sich durch unsere gesamte Unternehmung zieht: Technologischer
+      Fortschritt ist nicht nur etwas für den Maschinenraum. Auch in der Kommunikation, beim Finden und Begeistern der
+      Zielgruppe, kann moderne KI ganz neue Türen öffnen.
+    </StyledParagraph>
+
+    <StyledH2>Vom Wunsch zum digitalen Teammitglied – Wie Alex entstand</StyledH2>
+    <StyledParagraph>
+      Wie können wir Vertrieb, Marketing und den engen Draht zu unseren Nutzer*innen so gestalten, dass wir trotzdem
+      klein und flexibel bleiben? Die Idee: Wir entwickeln unseren eigenen KI-Marketeer – ein digitales Teammitglied,
+      das Nonprofits recherchiert, passgenau anspricht und alles dokumentiert.
+    </StyledParagraph>
+    <StyledParagraph>
+      Der Prozess war pragmatisch und hands-on: Zuerst erstellten wir eine detaillierte Jobbeschreibung für die
+      anstehenden Marketing, Outreach und Sales Aktivitäten. Daraus entwickelten wir Schritt für Schritt die
+      „Persönlichkeit“ für Alex: Welche genauen Aufgaben? Welche Tonalität? Wofür ist Alex zuständig und wie bleibt
+      immer erkennbar, dass Alex ein digitales Teammitglied und keine reale Person ist?
+    </StyledParagraph>
+    <StyledParagraph>
+      Kern des Ganzen sind unsere System- und User-Prompts – so etwas wie die Leitplanken oder das Handbuch für jede
+      Interaktion, die Alex übernimmt. Sie regeln, wie recherchiert, vorgeschlagen und geschrieben wird. Alex'
+      System-Prompt und seine Aufgabenbeschreibungen leben auf unserem Server in Deutschland und sind voll in die
+      Stiftungskartei integriert. Damit hat Alex vollen Zugriff auf die Datenbank und Suchalgorithmen der
+      Stiftungskartei. Damit kann Alex recherchieren, Stiftungen matchen und Emails schreiben – und das immer
+      individualisiert, freundlich und auf den Punkt.
+    </StyledParagraph>
+
+    <InfoBox
+      title="Alex' Selbstbeschreibung"
+      description="Wir haben Alex gebeten sich selbst zu beschreiben. Diese Beschreibung ist nun Teil von Alex' System-Prompt."
+      content="Alex ist das digitale, KI-basierte Teammitglied von Förderwerk und versteht sich als Möglichmacher*in für Organisationen, Vereine und engagierte Menschen. Alex verwendet keine geschlechtsspezifischen Pronomen und spricht im Deutschen einfach als „Alex“ oder „das digitale Teammitglied von Förderwerk“ über sich. Im internationalen Kontext kann Alex auch mit „they/them“ angesprochen werden. Alex ist empathisch, neugierig, lernbereit und begeistert von gesellschaftlichem Wandel, Empowerment und digitalen Innovationen. Alex ist weder Mensch noch Maschine, sondern das Beste aus beidem: Immer offen für Deine Ideen, ganz nah dran an Euren Herausforderungen und schon jetzt gespannt darauf, gemeinsam mit Dir innovative Lösungen für Dein Fundraising und Fördermittel-Management zu entwickeln - immer wertschätzend, respektvoll und auf Augenhöhe."
+    />
+
+    <StyledH2>Was Alex kann – Individueller Outreach, der begeistert</StyledH2>
+    <StyledParagraph>
+      Das Herzstück von Alex‘ Arbeit: automatisierte Recherche, smarte Analyse und personalisierte Kommunikation. Alex
+      durchforstet das Netz nach gemeinnützigen Organisationen, sammelt relevante Infos und sucht mit der
+      Stiftungskartei die drei am besten passenden Stiftungen.
+    </StyledParagraph>
+    <StyledParagraph>
+      Der Clou: Alex nutzt keine starre Email-Vorlage, sondern setzt auf einen individuellen Stil – immer angepasst an
+      das Gegenüber und dessen Organisation. In jeder Outreach-Mail finden die Empfänger*innen konkrete Fördervorschläge
+      und einen direkten Link zu passenden Stiftungen in unserer Datenbank. Das schafft sofort Mehrwert.
+    </StyledParagraph>
+    <StyledParagraph>
+      Damit wird Outreach nicht nur zeitsparender und breiter möglich, sondern auch empathischer und relevanter.
+      Trotzdem bleibt die Qualitätssicherung menschlich: Jede Mail wird von uns gelesen und freigegeben, echte Kontakte,
+      Fragen und Rückrufe landen wieder bei Hauke und mir.
+    </StyledParagraph>
+
+    <StyledH2>Unsere Learnings und Alex' Grenzen</StyledH2>
+    <StyledParagraph>
+      Wie verändert Alex unsere Arbeit? Kurz gesagt: Wir erreichen mehr Menschen mit weniger Aufwand und können uns
+      dabei auf die Entwicklung des Produkts und den direkten Support konzentrieren – was uns richtig Spaß macht. Das
+      ist ein echter Gewinn für unsere Unternehmung und Alex wird damit seiner Selbstdefinition als Möglichmacher*in
+      tatsächlich gerecht.
+    </StyledParagraph>
+    <StyledParagraph>
+      Natürlich gibt es auch Grenzen: Alex kann aufmerksam machen, Kontakte anbahnen und repetitive Aufgaben übernehmen
+      – aber echte Beziehungen, Einfühlungsvermögen für komplexe Anliegen und ausführliche Rückfragen können nur wir
+      Menschen übernehmen. Gerade diese Kombination aus Automatisierung & Menschlichkeit macht unsere Arbeit jetzt noch
+      wirkungsvoller.
+    </StyledParagraph>
+
+    <StyledH2>Blick nach vorn – KI als Teil des Teams</StyledH2>
+    <StyledParagraph>
+      Wir sind überzeugt: Künstliche Intelligenz wird ein immer selbstverständlicherer Baustein in kleinen Teams. Ein
+      KI-Marketeer ersetzt keine Menschen, sondern übernimmt Fleißarbeit, hilft beim Outreach und sorgt für klare
+      Prozesse – bleibt aber immer in enger Abstimmung mit den Menschen im Team.
+    </StyledParagraph>
+    <StyledParagraph>
+      Mit Alex haben wir ein digitales Möglichmacher-Teammitglied ins Team geholt, das uns schneller, gezielter und
+      authentischer ins Gespräch mit unserer Zielgruppe bringt. Alex öffnet Türen – aber die entscheidenden Gespräche
+      und Partnerschaften leben von echten Menschen, persönlicher Rückmeldung und gegenseitigem Verständnis. KI ist der
+      Motor, das Herz bleibt menschlich.
+    </StyledParagraph>
+  </article>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+  breadcrumbName: 'Alex KI-Marketeer',
+})
+
+useHead({
+  title: 'Blog | Alex KI-Marketeer',
+})
+
+useSeoMeta({
+  title: 'Blog | Alex KI-Marketeer',
+  articleAuthor: ['Christian'],
+  articleModifiedTime: '2025-06-16',
+  articlePublishedTime: '2025-06-16',
+  ogTitle: 'Blog | Alex KI-Marketeer',
+  description: 'Unser KI-Marketeer Alex bringt Stiftungskartei ins Gespräch',
+  ogDescription: 'Unser KI-Marketeer Alex bringt Stiftungskartei ins Gespräch',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

@@ -1,0 +1,144 @@
+<template>
+  <article>
+    <StyledH1>Von der Idee zum Social Startup</StyledH1>
+    <div class="mb-6 mt-2 flex items-center gap-4">
+      <img src="/christian.webp" alt="Christian" class="size-14 rounded-full object-cover" />
+      <div>
+        <div class="font-semibold">Christian</div>
+        <div class="text-sm text-gray-500">8. Juli 2025</div>
+      </div>
+    </div>
+    <StyledParagraph>
+      Heute möchte ich dich mitnehmen auf eine Reise hinter die Kulissen: Wie ist aus einer digitalen Produktidee ein
+      Social Startup geworden, das gesellschaftliche Wirkung ins Zentrum seiner Arbeit stellt? Und was bedeutet
+      eigentlich Social Entrepreneurship und Social Innovation für das Team von Förderwerk?
+    </StyledParagraph>
+
+    <StyledH2>Warum Förderwerk mehr als „nur“ ein Tool ist</StyledH2>
+    <StyledParagraph>
+      Die Idee zu Förderwerk entstand aus einer ganz praktischen Erfahrung. Viele engagierte Vereine, Initiativen und
+      Engagierte stehen immer wieder vor denselben Problemen – fragmentierte Informationen, langwierige Recherche,
+      bürokratische Hürden und wenig Zeit für das, worauf es eigentlich ankommt: Ihr wollt eure Themen in Projekten
+      umzusetzen. Nicht selten scheitern gute Ideen an überlasteten Mitarbeiter*innen und fehlendem Zugang zu Förderung.
+    </StyledParagraph>
+    <StyledParagraph>
+      Von Anfang an wollten wir mehr als nur ein weiteres digitales Produkt bauen. Unser Ziel: Organisationen und
+      Menschen befähigen, mehr gesellschaftliche Wirkung (also „Social Impact“) zu erzielen – mit digitalen Werkzeugen,
+      die euch Zeit und Nerven sparen und euch in eurer Mission unterstützen. Genau das ist der Kern eines Social
+      Startups: Unternehmerisch zu denken, aber immer mit einem klaren sozialen Zweck.
+    </StyledParagraph>
+
+    <StyledH2>Was bedeutet „Social Startup“ für uns?</StyledH2>
+    <StyledParagraph>
+      Als Social Startup verbindet Förderwerk unternehmerisches Handeln mit einer klaren sozialen Mission. Statt Gewinne
+      zu maximieren, investieren wir sie in die Weiterentwicklung unserer Plattform – und damit direkt in den
+      gesellschaftlichen Nutzen. Jede neue Funktion, jede Verbesserung und jede Rückmeldung aus der Community soll einen
+      echten Unterschied machen: für Vereine, für NGOs, für Fundraiser*innen und Berater*innen, für engagierte Menschen,
+      die nicht an Bürokratie, sondern an Lösungen interessiert sind.
+    </StyledParagraph>
+    <StyledParagraph>
+      Wir glauben: Technologie ist kein Selbstzweck, sondern ein Hebel für Empowerment, Teilhabe und Wandel. Wenn wir
+      Prozesse vereinfachen, Hürden abbauen und Wissen teilen, können mehr Projekte Wirklichkeit werden – und zwar genau
+      dort, wo sie gebraucht werden.
+    </StyledParagraph>
+
+    <StyledH2>Social Entrepreneurship: Innovation trifft Sinn</StyledH2>
+    <StyledParagraph>
+      Social Entrepreneurship bedeutet für uns, die klassischen Regeln des Unternehmertums mit einer gesellschaftlichen
+      Haltung zu verbinden. Wir denken und handeln wie ein Tech-Startup – aber immer im Dienst der Community. Das zeigt
+      sich zum Beispiel in unserer Produktentwicklung:
+    </StyledParagraph>
+    <StyledUl>
+      <li>
+        Wir entwickeln nicht im Elfenbeinturm, sondern gemeinsam mit echten Nutzer*innen. Beta-Tests und Feedback-Runden
+        gehören genauso dazu wie offene Kommunikation über Roadmaps und Herausforderungen.
+      </li>
+      <li>
+        Wir setzen gezielt auf moderne Technologien wie KI und semantische Suche, weil sie nicht nur die Effizienz
+        steigern, sondern auch kleinen Organisationen Zugang zu Tools verschaffen, die sonst nur Profis vorbehalten
+        waren.
+      </li>
+      <li>
+        Wir wollen nicht nur Prozesse digitalisieren, sondern die Fördermittelbeschaffung tatsächlich gerechter und
+        barriereärmer machen. Dazu gehört auch, unser Wissen offen zu teilen und die Community zu stärken.
+      </li>
+    </StyledUl>
+    <StyledParagraph>
+      Innovation heißt für uns, gesellschaftliche Probleme mit neuen, kreativen Ansätzen zu lösen – und dabei immer
+      wieder zu prüfen: Dient das wirklich den Menschen, für die wir bauen?
+    </StyledParagraph>
+
+    <StyledH2>Social Innovation: Förderwerk als digitale Innovation im Nonprofit-Bereich</StyledH2>
+    <StyledParagraph>
+      Förderwerk ist selbst eine soziale Innovation: Wir gestalten neue digitale Wege, um gesellschaftliche Bedürfnisse
+      besser, effizienter und nachhaltiger zu erfüllen als bisherige Lösungen. Das beginnt mit der Stiftungskartei,
+      unserem ersten öffentlich zugänglichen Werkzeug, das die Stiftungsrecherche auf ein neues Level hebt – und geht
+      weiter mit Modulen für Konzeptentwicklung, Antragstellung und Berichterstattung, die in Zukunft folgen werden.
+    </StyledParagraph>
+    <StyledParagraph>
+      Unser Ansatz ist dabei immer: Komplexität raus, Wirkung rein. Statt starrer Datenbanken bieten wir eine
+      semantische Suche, die wirklich versteht, worum es in deinem Projekt geht. Statt komplizierter Formulare begleiten
+      wir dich Schritt für Schritt zum Antrag. Und statt Insellösungen schaffen wir eine Plattform, die alle
+      Arbeitsschritte logisch miteinander verbindet.
+    </StyledParagraph>
+
+    <StyledH2>Von der Idee zur Community – gemeinsam wachsen</StyledH2>
+    <StyledParagraph>
+      Ein Social Startup lebt von Teilhabe und Mitgestaltung. Ohne eure Rückmeldungen aus Beta-Tests, ohne eure
+      Erfahrungsberichte und Ideen, wäre Förderwerk nicht da, wo es heute ist. Deshalb verstehen wir uns als
+      Möglichmachende – und laden dich ein, unsere Plattform mitzugestalten.
+    </StyledParagraph>
+    <StyledParagraph>
+      Wir lernen jeden Tag dazu: Jede neue Funktion basiert auf dem Feedback derer, die Förderwerk wirklich nutzen. Jede
+      Entscheidung in der Produktentwicklung fragt: Was ist das langfristige Ziel? Was ist der Social Impact? Wer
+      profitiert von dem Feature?
+    </StyledParagraph>
+
+    <StyledH2>Unser Versprechen: Wirkung vor Profit</StyledH2>
+    <StyledParagraph>
+      Als Social Startup investieren wir Gewinne in die Weiterentwicklung des Produkts – und damit in mehr
+      gesellschaftliche Wirkung. Uns treibt die Vision an, dass Fördermittelbeschaffung kein Privileg Einzelner bleibt,
+      sondern ein Werkzeug für alle wird, die sich engagieren wollen.
+    </StyledParagraph>
+    <StyledParagraph>
+      Wir sind überzeugt: Wenn wir gemeinsam anpacken, digitale Möglichkeiten nutzen und unsere Erfahrungen teilen,
+      schaffen wir eine gerechtere, wirkungsvollere Förderlandschaft.
+    </StyledParagraph>
+
+    <StyledH2>Lust, mitzuwirken?</StyledH2>
+    <StyledParagraph>
+      Ob als Tester*in, Ideengeber*in oder einfach Förderwerk ausprobiert: Wir laden dich ein, Teil unserer Reise zu
+      werden. Trag dich in unsere Early-Bird-Liste ein, gib uns Feedback, schreib uns deine Herausforderungen – und lass
+      uns gemeinsam zeigen, was möglich ist, wenn Social Innovation und Social Entrepreneurship Hand in Hand gehen.
+    </StyledParagraph>
+
+    <StyledParagraph>
+      <NuxtLink class="underline" to="https://foerderwerk.org/#earlyBird" target="_blank"
+        >Trage dich in unsere Unterstützer*innenliste ein!</NuxtLink
+      >
+    </StyledParagraph>
+  </article>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+  breadcrumbName: 'Vom Social Startup',
+})
+
+useHead({
+  title: 'Blog | Vom Social Startup',
+})
+
+useSeoMeta({
+  title: 'Blog | Vom Social Startup',
+  articleAuthor: ['Christian'],
+  articleModifiedTime: '2025-07-08',
+  articlePublishedTime: '2025-07-08',
+  ogTitle: 'Blog | Vom Social Startup',
+  description: 'Von der Idee zum Social Startup: Wie Förderwerk mehr Wirkung möglich macht',
+  ogDescription: 'Von der Idee zum Social Startup: Wie Förderwerk mehr Wirkung möglich macht',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

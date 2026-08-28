@@ -1,0 +1,144 @@
+<template>
+  <article>
+    <StyledH1>Förderwerk: Der smarte Weg zu Fördermitteln</StyledH1>
+    <div class="mb-6 mt-2 flex items-center gap-4">
+      <img src="/hauke.webp" alt="Hauke" class="size-14 rounded-full object-cover" />
+      <div>
+        <div class="font-semibold">Hauke</div>
+        <div class="text-sm text-gray-500">26. Mai 2025</div>
+      </div>
+    </div>
+    <StyledParagraph>
+      Förderanträge sind ein große Herausforderung: Zersplitterte Informationen, endlose Recherche, bürokratische
+      Hürden. Kleine Organisationen und Vereine verbringen Wochen damit, die richtige Förderung zu finden – und
+      scheitern oft an den komplexen Anforderungen. Das Ergebnis? Gute Ideen bleiben unverwirklicht.
+    </StyledParagraph>
+    <StyledParagraph>
+      Hier setzt die Vision von Förderwerk an: Wir wollen den gesamten Förderprozess radikal vereinfachen,
+      digitalisieren und für alle zugänglich machen – Schritt für Schritt, von der ersten Recherche über die
+      Konzeptentwicklung und Antragstellung bis hin zum Reporting. Den Anfang dieser Mission macht unser erstes Produkt:
+      die Stiftungskartei. Sie ist direkt als Webanwendung nutzbar, bildet aber auch das Herzstück der geplanten
+      „Recherche“-Funktionen im Gesamtpaket von Förderwerk.
+    </StyledParagraph>
+    <StyledH2>Unsere große Vision: Was ist Förderwerk?</StyledH2>
+    <StyledParagraph>
+      Die Idee hinter Förderwerk ist groß, aber klar: Wir begleiten Organisationen, Vereine und alle, die sich
+      engagieren, von der ersten Suchanfrage bis zur letzten Abrechnung. Förderwerk soll aus mehreren, smart verknüpften
+      Werkzeugen bestehen:
+    </StyledParagraph>
+    <StyledUl>
+      <li>
+        <b>Recherche:</b> Mit modernen KI-Technologien wird die Suche nach passenden Förderprogrammen und Stiftungen ein
+        Leichtes. Statt endloser Datenbank-Listen erhältst du gezielte, auf deine Organisation zugeschnittene
+        Vorschläge.
+      </li>
+      <li>
+        <b>Konzeptentwicklung:</b> Im nächsten Schritt unterstützt dich Förderwerk strukturiert bei der Ausarbeitung
+        deines Projektkonzepts – von der ersten Skizze bis zur förderfähigen Ausarbeitung.
+      </li>
+      <li>
+        <b>Antragstellung:</b> Wer schon einmal Förderanträge ausgefüllt hat, weiß, wie detailreich und unterschiedlich
+        die Formulare sein können. Förderwerk hilft dir, alle nötigen Informationen richtig aufzubereiten und digitale
+        Formulierungshilfen zu nutzen.
+      </li>
+      <li>
+        <b>Reporting & Post-Award-Management:</b> Nach der Förderung ist vor der Berichterstattung. Auch dabei begleitet
+        dich Förderwerk und sorgt für strukturierte, nachvollziehbare Dokumentation.
+      </li>
+    </StyledUl>
+    <StyledParagraph>
+      Mit dieser Plattform wollen wir die Schmerzen der klassischen Fördermittelbeschaffung lindern – und mit der
+      Stiftungskartei fängt alles an.
+    </StyledParagraph>
+    <StyledH2>Stiftungskartei als erster Baustein</StyledH2>
+    <StyledParagraph>
+      Wer auf eine Förderstiftung zugehen will, braucht erst einmal einen Überblick: Welche Stiftungen passen? Welche
+      Anknüpfungspunkte gibt es? Welche Projekte werden gefördert? Genau da liegt eine der größten Hürden: Die
+      Hintergrundrecherche frisst Stunden, manchmal sogar Tage. Traditionelle Datenbanken sind oft nicht aktuell,
+      liefern nur rudimentäre Infos und machen den Vergleich verschiedener Stiftungen zur Detektivarbeit.
+    </StyledParagraph>
+    <StyledParagraph>
+      Genau aus diesem Grund haben wir Stiftungskartei entwickelt: Unser Ziel war es, ein eigenständiges Werkzeug zu
+      entwickeln, das die Recherche so unkompliziert wie möglich macht. Die Stiftungskartei arbeitet KI-gestützt – du
+      gibst nur den Namen deiner Organisation sowie eine grobe Projektskizze ein. Im Hintergrund durchsucht die App
+      eigenständig tausende öffentliche Quellen, analysiert Ziele, Zielgruppen und regionale Schwerpunkte und gleicht
+      alles mit unserer riesigen Stiftungsdatenbank ab. Innerhalb von Sekunden erhältst du eine präzise Liste passender
+      Stiftungen, komplett mit Steckbriefen, Förderkriterien, Ansprechpartnern sowie Infos zu bereits geförderten
+      Projekten.
+    </StyledParagraph>
+    <StyledParagraph>
+      Der Clou: Stiftungskartei ist als eigenständige Webanwendung nutzbar, liefert aber gleichzeitig die Grundlage für
+      die gesamte Förderwerk-Plattform. Die Organisations- und Projektdaten, die du hier sammelst bilden den Startpunkt
+      für alle weiteren Schritte auf dem Weg zur passenden Förderung.
+    </StyledParagraph>
+    <StyledH2>Synergie zwischen Stiftungskartei und Förderwerk</StyledH2>
+    <StyledParagraph>
+      Stell dir eine digitale Fördermittel-Plattform vor in der alle Schritte ineinandergreifen. Die Stiftungskartei ist
+      das Fundament – sie übernimmt die aufwändige Recherche, zeigt relevante Stiftungen und bündelt alle wichtigen
+      Informationen. Und genau auf diesen Ergebnissen bauen die weiteren Werkzeuge von Förderwerk auf.
+    </StyledParagraph>
+    <StyledParagraph>
+      Dein Vorteil: Alles ist in einer Plattform vereint, sicher und miteinander verzahnt. Aus den recherchierten
+      Stiftungsprofilen und deiner Projektskizze lassen sich direkt passgenaue Konzepte entwickeln, Formulierungshilfen
+      für den Antrag generieren und später Berichte zusammenstellen. Keine doppelten Eingaben, kein Suchen im
+      Aktenchaos, keine Copy-Paste-Orgien. Deine Daten sind sicher, nutzerfreundlich zugänglich und wandern von Modul zu
+      Modul – das spart dir Zeit und Nerven.
+    </StyledParagraph>
+    <StyledParagraph>
+      Mit dieser Synergie denkt Förderwerk die Fördermittelbeschaffung komplett neu: Statt Insellösungen bekommst du
+      einen vollständigen Prozess, der dich von der ersten Suche bis zur Förderung (und darüber hinaus) digital
+      begleitet.
+    </StyledParagraph>
+    <StyledH2>Der Weg zum Förderwerk</StyledH2>
+    <StyledParagraph>
+      Die Stiftungskartei ist bereits heute kostenfrei online verfügbar, wird aber auch ständig verbessert. Aktuell
+      arbeiten wir mit voller Kraft an Funktionen für fortgeschrittene und professionelle Anwender*innen, die mehr
+      Filtermöglichkeiten, persönliche Favoritenlisten und die neuesten KI-Modelle nutzen wollen. Diese Features warten
+      darauf, von der Community getestet zu werden.
+    </StyledParagraph>
+    <StyledParagraph>
+      Doch das ist nur der Anfang: In den kommenden Monaten erweitern wir Förderwerk um zusätzliche Werkzeuge. Dazu
+      zählen die strukturierte Konzeptentwicklung, die intelligente Antragshilfe und ein automatisiertes
+      Berichtsmanagement, damit du dich ganz auf die Wirkung deines Projekts konzentrieren kannst.
+    </StyledParagraph>
+    <StyledParagraph>
+      Wer sich schon jetzt als Early-Bird in die Warteliste einträgt, erhält exklusiven und kostenlosen Zugang zu neuen
+      Funktionen und kann die Plattform aktiv mitgestalten.
+    </StyledParagraph>
+    <StyledH2>Jetzt mitmachen!</StyledH2>
+    <StyledParagraph>
+      Wir sind überzeugt: Fördermittelbeschaffung muss nicht kompliziert sein! Mit Förderwerk wollen wir dir das
+      beweisen. Mit Stiftungskartei bieten wir bereits heute eine smarte, KI-gestützte Lösung für die bisher mühsame
+      Stiftungsrecherche an. Dies ist erst der Anfang einer komplett neuen Herangehensweise an die Welt der
+      Fördermittel.
+    </StyledParagraph>
+    <StyledParagraph>
+      Teste deshalb jetzt die Stiftungskartei kostenlos und werde Teil des Umdenkens in der digitalen
+      Fördermittelbeschaffung. Trag dich in unsere Early-Bird-Liste ein, gib uns Feedback und gestalte das Förderwerk
+      von morgen aktiv mit. Zusammen machen wir Fördermittel leichter zugänglich – Schritt für Schritt.
+    </StyledParagraph>
+  </article>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+  breadcrumbName: 'Förderwerk: Der smarte Weg zu Fördermitteln',
+})
+
+useHead({
+  title: 'Blog | Förderwerk: Der smarte Weg zu Fördermitteln',
+})
+
+useSeoMeta({
+  title: 'Blog | Förderwerk: Der smarte Weg zu Fördermitteln',
+  articleAuthor: ['Hauke'],
+  articleModifiedTime: '2025-05-26',
+  articlePublishedTime: '2025-05-26',
+  ogTitle: 'Blog | Förderwerk: Der smarte Weg zu Fördermitteln',
+  description: 'Förderwerk: Der smarte Weg zu Fördermitteln',
+  ogDescription: 'Förderwerk: Der smarte Weg zu Fördermitteln',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

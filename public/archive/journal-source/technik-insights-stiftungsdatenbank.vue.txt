@@ -1,0 +1,134 @@
+<template>
+  <article>
+    <StyledH1>Technik-Deep-Dive: So analysieren wir die Deutsche Stiftungslandschaft</StyledH1>
+    <div class="mb-6 mt-2 flex items-center gap-4">
+      <img src="/christian.webp" alt="Christian" class="size-14 rounded-full object-cover" />
+      <div>
+        <div class="font-semibold">Christian</div>
+        <div class="text-sm text-gray-500">23. Juni 2025</div>
+      </div>
+    </div>
+    <StyledParagraph>
+      Stell dir vor, du suchst passgenaue Förderstiftungen – und bekommst auf Knopfdruck nicht nur alle wichtigen
+      Details, sondern auch wirklich relevante Treffer. Was im Alltag der allermeisten NGOs wie Wunschdenken klingt, ist
+      das Ziel der Stiftungskartei. Damit das gelingt, braucht es eines: Eine eigene, zuverlässige und umfassende
+      Stiftungsdatenbank, die beständig gepflegt und intelligent erschlossen wird. Genau dafür haben wir den
+      „Stiftungs-Sammler“ entwickelt – eine hochtechnisierte KI-Daten-Pipeline, die Ordnung ins Stiftungsdaten-Chaos
+      bringt.
+    </StyledParagraph>
+    <StyledParagraph>
+      Warum das so wichtig ist? Weil es bisher keine einzige verlässliche, gebündelte Quelle der deutschen
+      Stiftungslandschaft gibt – schon gar nicht in strukturierter, aktuell gepflegter und für KI nutzbarer Form. Unser
+      Stiftungs-Sammler übernimmt diese Mammutaufgabe, indem er selbständig tausende Stiftungsnamen im Netz
+      identifiziert, recherchiert und so zu einer lebendigen Datenbasis für die Stiftungskartei verarbeitet.
+    </StyledParagraph>
+
+    <StyledH2>KI-gestützte Websuche & intelligentes Ergebnis-Ranking</StyledH2>
+    <StyledParagraph>
+      Der erste Schritt: Namen sammeln und Wissen erschließen. Unser Stiftungs-Sammler importiert mehr als 10.000
+      Stiftungsnamen und startet einen ausgeklügelten Websuch-Prozess. Für jede Stiftung recherchiert er automatisiert
+      nach offiziellen Webseiten, Medienberichten und öffentlich zugänglichen Informationsquellen.
+    </StyledParagraph>
+    <StyledParagraph>
+      Doch das ist nur der Anfang: Mittels Künstlicher Intelligenz werden die Fundstellen nicht einfach gesammelt,
+      sondern nach Relevanz und Informationsgehalt bewertet. So landen keine toten Links oder themenfremde Treffer in
+      der Datenbank, sondern nur die wirklich gehaltvollen Quellen. Das spart später Zeit – und sorgt dafür, dass auch
+      kleinere, weniger bekannte Stiftungen sichtbar werden.
+    </StyledParagraph>
+
+    <StyledH2>Extraktion unstrukturierter Daten – egal ob HTML oder PDF</StyledH2>
+    <StyledParagraph>
+      Das Internet ist ein wilder Ort: Infos liegen verstreut in Webtexten, PDFs oder Datenbank-Auszügen. Der
+      Stiftungs-Sammler durchsucht nicht nur klassische Webseiten, sondern extrahiert auch klug den Inhalt von
+      Jahresberichten, Satzungen und Projektportalen – ganz gleich, ob als HTML, komplexes PDF oder verschachteltes
+      Dokument.
+    </StyledParagraph>
+    <StyledParagraph>
+      Dabei kommen spezialisierte Scraping-Module zum Einsatz, die jeden Datensatz überprüfen und bereinigen. Die Kunst
+      ist hier, Nützliches von Irrelevantem zu unterscheiden und hunderte Seiten auf das Wesentliche zu kondensieren –
+      automatisiert und nachvollziehbar.
+    </StyledParagraph>
+
+    <StyledH2>Token-Optimierung & KI-gestützte Content-Compression</StyledH2>
+    <StyledParagraph>
+      Künstliche Intelligenz bringt große Potenziale – aber auch Kosten in der Verarbeitung: Jeder Text, der an ein
+      Sprachmodell geht, verursacht Rechenaufwand. Deshalb misst unser System in jedem Schritt, wie viel sinnvolle
+      Information in möglichst wenigen Zeichen („Tokens“) steckt. Mit kluger Analyse grenzen wir irrelevante oder
+      doppelte Inhalte aus und beschränken die Verarbeitung auf das Wesentliche. Das Ergebnis: Maximales Wissen bei
+      minimalem Ressourcenverbrauch.
+    </StyledParagraph>
+    <StyledParagraph>
+      Ein Schlüsselstück im Prozess ist die automatische Verdichtung der Inhalte: Der Stiftungs-Sammler komprimiert
+      selbst große Webseiten und PDF-Texte auf das absolute Informations-„Destillat“. Dank spezialisierter KI-Modelle
+      schrumpfen seitenlange Dokumente zu klaren, verständlichen Zusammenfassungen, ohne dass entscheidende Fakten oder
+      Nuancen verloren gehen.
+    </StyledParagraph>
+    <StyledParagraph>
+      Diese Aufteilung der Datenaufbereitung und -bereitstellung in Einzelschritte gibt uns mehr Flexibilität bei der
+      Auswertung und erlauben es uns schnell neue KI-Modelle und Techniken einzubauen oder sogar ganze Prozessschritte
+      auszutauschen, um das System kontinuierlich zu optimieren.
+    </StyledParagraph>
+
+    <StyledH2>Von KI-Summaries zu strukturierten Fact-Sheets</StyledH2>
+    <StyledParagraph>
+      Am Ende des Prozesses steht das, was die Stiftungskartei einmalig macht: strukturierte, überprüfbare Steckbriefe
+      für jede erfasste Stiftung. Dafür extrahiert und sortiert der Sammler selbständig alle relevanten Eckdaten – vom
+      Rechtssitz über Förderschwerpunkte bis zu früheren Projekten. Die Ergebnisse landen in einer sauber gegliederten
+      Datenbank, die flexibel und jederzeit durchsuchbar ist.
+    </StyledParagraph>
+    <StyledParagraph>
+      So wird aus einem Wust von Webseiten und PDF-Dateien eine zentrale, konsistente Datenquelle, die explizit auf die
+      Bedürfnisse gemeinnütziger Projekte zugeschnitten ist.
+    </StyledParagraph>
+
+    <StyledH2>Blick in die Zukunft: Echtzeit-Updates & Community-Wissen</StyledH2>
+    <StyledParagraph>
+      Unser Stiftungs-Sammler ist schon heute enorm leistungsfähig – und entwickelt sich stetig weiter. In Zukunft
+      wollen wir noch mehr Datenquellen erschließen, automatische Aktualisierungen in Echtzeit ermöglichen und
+      vielleicht sogar Community- oder Open-Data-Elemente integrieren. Vorstellbar ist, dass engagierte Nutzer*innen
+      Korrekturen und Ergänzungen beisteuern können, damit das Wissen über Deutschlands Stiftungen immer auf dem
+      neuesten Stand bleibt. Auch die Integration von Monitoring-Mechanismen – zum Beispiel automatische Hinweise bei
+      Stiftungs-Neugründungen oder grundlegenden Änderungen – stehen auf unserer Short-List.
+    </StyledParagraph>
+
+    <StyledH2>Ein Danke an die Beta-Testerinnen</StyledH2>
+    <StyledParagraph>
+      Hinter dem Stiftungs-Sammler steckt viel Pioniergeist, technische Finesse – und euer praxisnahes Feedback. An
+      alle, die uns mit Tests, Anregungen und Geduld unterstützt haben: Herzlichen Dank! Wir arbeiten weiter daran, die
+      Stiftungsdatenbank noch aktueller, transparenter und hilfreicher zu machen – damit dein Engagement die richtigen
+      Partner*innen findet.
+    </StyledParagraph>
+    <StyledParagraph>
+      Du willst mitgestalten oder hast Ideen, welche Stiftungen wir noch berücksichtigen sollten? Melde dich gerne bei
+      uns via Email an
+      <a
+        href="mailto:hallo@foerderwerk.org"
+        class="border-b border-muted-foreground/60 transition-all duration-150 ease-in-out hover:border-b-2 hover:border-border/40 hover:text-primary"
+        >hallo@foerderwerk.org</a
+      >– und hilf uns dabei, die Fördermittel-Suche neu zu denken!
+    </StyledParagraph>
+  </article>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+  breadcrumbName: 'Technik-Insights: Stiftungsdatenbank',
+})
+
+useHead({
+  title: 'Blog | Technik-Insights: Stiftungsdatenbank',
+})
+
+useSeoMeta({
+  title: 'Blog | Technik-Insights: Stiftungsdatenbank',
+  articleAuthor: ['Christian'],
+  articleModifiedTime: '2025-06-23',
+  articlePublishedTime: '2025-06-23',
+  ogTitle: 'Blog | Technik-Insights: Stiftungsdatenbank',
+  description: 'Technik-Insights: Stiftungsdatenbank',
+  ogDescription: 'Technik-Insights: Stiftungsdatenbank',
+  ogImage: '/og-image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

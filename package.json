@@ -1,0 +1,27 @@
+{
+  "name": "foerderwerk-landing-page",
+  "description": "Static retirement and portfolio archive for Förderwerk, Elbchen and Stiftungskartei",
+  "version": "0.1",
+  "author": {
+    "name": "Christian Geisler",
+    "url": "https://github.com/sichgeis"
+  },
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "postbuild": "node scripts/prepare-static-routes.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.35.0",
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "typescript": "^6.0.3",
+    "vite": "^8.2.2",
+    "vue-tsc": "^3.3.11"
+  }
+}
