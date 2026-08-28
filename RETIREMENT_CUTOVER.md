@@ -43,6 +43,10 @@ from an independent network.
 
 ## Application shutdown order
 
+Keep the non-public deployment inventory, data-retention decisions, credential
+revocation list, and evidence required before deleting servers or volumes in a
+private operational runbook.
+
 - [ ] Stop subscriptions and outreach jobs.
 - [ ] Export any data that must be retained.
 - [ ] Stop Stiftungskartei frontend, API, MCP and matching services.
