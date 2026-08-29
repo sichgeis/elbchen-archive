@@ -33,7 +33,7 @@ defineProps<{ homeHref: string; archivePath: (path: string) => string }>();
   </section>
 
   <section class="content-section page-width screencast-section">
-    <div class="section-intro compact"><p class="section-label">Produkt in Bewegung</p><h2>So sah Stiftungskartei in ihrer letzten öffentlichen Version aus.</h2><p>Der kurze Rundgang führt von der direkten Suche zu den Ergebnissen und weiter in ein Stiftungsprofil. Zu sehen sind ausschließlich öffentliche, neutrale Stiftungsdaten – keine Accounts oder Nutzerdaten.</p></div>
+    <div class="section-intro compact"><p class="section-label">Produkt in Bewegung</p><h2>So sah Stiftungskartei in ihrer letzten öffentlichen Version aus.</h2><p>Der kurze Rundgang zeigt eine echte KI-Suche für die Gesellschaft für bedrohte Völker: von der Eingabe über die automatische Recherche und die Ergebnisse bis zum ersten Stiftungsprofil. Zu sehen sind ausschließlich öffentliche Organisations- und Stiftungsdaten – keine Accounts oder Nutzerdaten.</p></div>
     <div class="video-frame"><video controls preload="metadata" :poster="archivePath('screenshots/stiftungskartei-ki-search-gfbv.png')" :src="archivePath('video/stiftungskartei-screencast.webm')" aria-label="Stiller Rundgang durch die archivierte Stiftungskartei"></video></div>
   </section>
 
