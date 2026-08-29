@@ -80,7 +80,7 @@ const heroImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
         <p>Mit Stiftungskartei fing alles an. Statt sich durch Listen, Webseiten und PDF-Berichte zu arbeiten, konnten Organisationen auf drei Wegen nach passenden Stiftungen suchen – und die wichtigsten Informationen direkt vergleichen.</p>
         <a class="button primary" href="./stiftungskartei/">Produktfallstudie öffnen <ArrowUpRight :size="18" /></a>
       </div>
-      <a class="screenshot-frame" :href="archivePath('screenshots/stiftungskartei-home.png')"><img :src="archivePath('screenshots/stiftungskartei-home.png')" alt="Die ehemalige Startseite der Stiftungskartei" /></a>
+      <a class="screenshot-frame" :href="archivePath('screenshots/stiftungskartei-ki-search-gfbv.png')"><img :src="archivePath('screenshots/stiftungskartei-ki-search-gfbv.png')" alt="KI-Suche der Stiftungskartei mit einem Beispielvorhaben der GfbV" /></a>
     </div>
   </section>
 
