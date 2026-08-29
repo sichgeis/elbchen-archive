@@ -9,7 +9,7 @@ defineProps<{ homeHref: string; archivePath: (path: string) => string }>();
     <h1>Stiftungskartei.<br /><span>Smart suchen, mehr wirken.</span></h1>
     <p class="hero-copy">Stiftungskartei sollte die aufwändige Stiftungsrecherche einfacher machen: mit drei Suchwegen, mehr als 12.000 aufbereiteten Stiftungsprofilen und Ergebnissen, die nicht nur auf gleiche Wörter, sondern auf den inhaltlichen Zusammenhang schauten.</p>
     <div class="case-meta">
-      <div><span>Rolle</span><strong>Produkt, UX, Data & Engineering</strong></div>
+      <div><span>Unser Beitrag</span><strong>Konzeption, Gestaltung und technische Entwicklung</strong></div>
       <div><span>Phase</span><strong>Öffentliche Beta</strong></div>
       <div><span>Status</span><strong>Seit 2026 archiviert</strong></div>
     </div>
