@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { Bot, FileSearch, LockKeyhole, Wrench } from "@lucide/vue";
 
-defineProps<{ homeHref: string }>();
-const productImage = `${import.meta.env.BASE_URL}hero-image-librechat.jpg`;
+const props = defineProps<{ homeHref: string }>();
+const productImage = `${props.homeHref}hero-image-librechat.jpg`;
 </script>
 
 <template>
