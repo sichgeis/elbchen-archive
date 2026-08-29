@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://foerderwerk.org/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://foerderwerk.org/stiftungskartei/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://foerderwerk.org/foerderwerk/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://foerderwerk.org/blog/herausforderungen-stiftungsrecherche/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://foerderwerk.org/blog/foerderwerk-smarter-weg/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://foerderwerk.org/blog/wir-laden-zur-beta-ein/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://foerderwerk.org/blog/technik-insights-semantische-suche/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://foerderwerk.org/blog/alex/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://foerderwerk.org/blog/technik-insights-stiftungsdatenbank/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://foerderwerk.org/blog/beta-test-insights/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://foerderwerk.org/blog/social-startup/</loc><lastmod>2026-08-29</lastmod></url>
+</urlset>

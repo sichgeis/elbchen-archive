@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <clipPath id="screen"><rect x="680" y="96" width="464" height="458" rx="12"/></clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#00359c" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="#f6f9ff"/>
+  <rect width="1200" height="32" fill="#001641"/>
+  <circle cx="428" cy="16" r="5" fill="#ffa23c"/>
+  <text x="442" y="21" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="700">PRODUKTFALLSTUDIE · SEIT 2026 ARCHIVIERT</text>
+
+  <image href="foerderwerk-color-logo.svg" x="64" y="62" width="54" height="54"/>
+  <text x="134" y="82" fill="#001641" font-family="Arial,sans-serif" font-size="20" font-weight="700">Förderwerk</text>
+  <text x="134" y="103" fill="#51617e" font-family="Arial,sans-serif" font-size="13">Projektarchiv</text>
+
+  <text x="64" y="193" fill="#0057ff" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">STIFTUNGSSUCHE NEU GEDACHT</text>
+  <text x="62" y="273" fill="#001641" font-family="Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="-3">Stiftungskartei.</text>
+  <text x="62" y="340" fill="#0057ff" font-family="Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1.5">Smart suchen, mehr wirken.</text>
+  <text x="66" y="404" fill="#51617e" font-family="Arial,sans-serif" font-size="18">KI-gestützte Stiftungssuche, Produktfallstudie</text>
+  <text x="66" y="433" fill="#51617e" font-family="Arial,sans-serif" font-size="18">und offen verfügbarer Quellcode.</text>
+
+  <rect x="64" y="484" width="206" height="46" rx="8" fill="#001641"/>
+  <text x="88" y="513" fill="#ffffff" font-family="Arial,sans-serif" font-size="16" font-weight="700">Fallstudie ansehen ↗</text>
+
+  <ellipse cx="912" cy="335" rx="262" ry="242" fill="#c7daff" opacity="0.72"/>
+  <rect x="666" y="82" width="492" height="486" rx="16" fill="#ffffff" stroke="#001641" stroke-opacity="0.16" filter="url(#shadow)"/>
+  <image href="archive/screenshots/stiftungskartei-ki-search-gfbv.png" x="680" y="96" width="464" height="458" preserveAspectRatio="xMidYMid slice" clip-path="url(#screen)"/>
+</svg>
