@@ -41,7 +41,7 @@ export const projects: Project[] = [
   {
     number: "02", icon: "bot", kind: "KI-Arbeitsplatz", title: "Förderwerk",
     description: "Ein datenschutzorientierter KI-Arbeitsplatz, der Chat, eigenes Wissen und Werkzeuge für die Fördermittelarbeit an einem Ort zusammenbrachte.",
-    technologies: ["LibreChat", "RAG", "MCP", "Docker"],
+    technologies: ["LibreChat", "RAG", "MCP", "Docker"], href: "./foerderwerk/", linkLabel: "Rückblick ansehen",
   },
   {
     number: "03", icon: "database", kind: "Datenpipeline", title: "Stiftungs-Sammler",

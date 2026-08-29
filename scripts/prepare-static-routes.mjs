@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const routes = [
   { path: "stiftungskartei", assetPrefix: "../" },
+  { path: "foerderwerk", assetPrefix: "../" },
   { path: "blog/herausforderungen-stiftungsrecherche", assetPrefix: "../../" },
   { path: "blog/foerderwerk-smarter-weg", assetPrefix: "../../" },
   { path: "blog/wir-laden-zur-beta-ein", assetPrefix: "../../" },
